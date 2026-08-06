@@ -736,7 +736,7 @@ export const exerciseCatalog = [
   {
     "id": 38,
     "muscle": "Hamstrings",
-    "name": "Lying Leg Curl (Entire Hamstrings Focus / Shoulder-Width Stance)",
+    "name": "ham1",
     "target": [
       "Hamstrings"
     ],
@@ -750,7 +750,7 @@ export const exerciseCatalog = [
   {
     "id": 39,
     "muscle": "Hamstrings",
-    "name": "Lying Leg Curl (Inner Hamstrings Focus / Wide Stance)",
+    "name": "ham2",
     "target": [
       "Hamstrings"
     ],
@@ -764,7 +764,7 @@ export const exerciseCatalog = [
   {
     "id": 40,
     "muscle": "Hamstrings",
-    "name": "Lying Leg Curl (Outer Hamstrings Focus / Narrow Stance)",
+    "name": "ham3",
     "target": [
       "Hamstrings"
     ],
@@ -889,6 +889,20 @@ export const exerciseCatalog = [
   },
   {
     "id": 49,
+    "muscle": "Neck",
+    "name": "n1",
+    "target": [
+      "Neck"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/neck/n1.mp4"
+  },
+  {
+    "id": 50,
     "muscle": "Obliques",
     "name": "Plank",
     "target": [
@@ -902,7 +916,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/obliques/Plank.mp4"
   },
   {
-    "id": 50,
+    "id": 51,
     "muscle": "Shoulders",
     "name": "Machine Reverse Fly",
     "target": [
@@ -916,7 +930,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/shoulder/Machine_Reverse_Fly.mp4"
   },
   {
-    "id": 51,
+    "id": 52,
     "muscle": "Shoulders",
     "name": "Machine Shoulder Press",
     "target": [
@@ -930,7 +944,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/shoulder/Machine_Shoulder_Press.mp4"
   },
   {
-    "id": 52,
+    "id": 53,
     "muscle": "Shoulders",
     "name": "Seated Dumbbell Front Raise",
     "target": [
@@ -944,7 +958,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Front_Raise.mp4"
   },
   {
-    "id": 53,
+    "id": 54,
     "muscle": "Shoulders",
     "name": "Seated Dumbbell Lateral Raise",
     "target": [
@@ -958,7 +972,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Lateral_Raise.mp4"
   },
   {
-    "id": 54,
+    "id": 55,
     "muscle": "Traps",
     "name": "Behind the Back Barbell Shrug",
     "target": [
@@ -972,7 +986,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Behind_the_Back_Barbell_Shrug.mp4"
   },
   {
-    "id": 55,
+    "id": 56,
     "muscle": "Traps",
     "name": "Dumbbell Shrug",
     "target": [
@@ -986,7 +1000,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Dumbbell_Shrug.mp4"
   },
   {
-    "id": 56,
+    "id": 57,
     "muscle": "Traps",
     "name": "Leaning Dumbbell Shrug",
     "target": [
@@ -1000,7 +1014,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Leaning_Dumbbell_Shrug.mp4"
   },
   {
-    "id": 57,
+    "id": 58,
     "muscle": "Traps",
     "name": "Overhead Barbell Shrug",
     "target": [
@@ -1014,7 +1028,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Overhead_Barbell_Shrug.mp4"
   },
   {
-    "id": 58,
+    "id": 59,
     "muscle": "Traps",
     "name": "Single Arm Behind the Back Dumbbell Shrug",
     "target": [
@@ -1028,7 +1042,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/SingleArm_Behind_the_Back_Dumbbell_Shrug.mp4"
   },
   {
-    "id": 59,
+    "id": 60,
     "muscle": "Triceps",
     "name": "Cable Tricep Pushdown",
     "target": [
@@ -1042,7 +1056,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Cable_Tricep_Pushdown.mp4"
   },
   {
-    "id": 60,
+    "id": 61,
     "muscle": "Triceps",
     "name": "Dumbbell Tricep Kickback",
     "target": [
@@ -1056,7 +1070,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Dumbbell_Tricep_Kickback.mp4"
   },
   {
-    "id": 61,
+    "id": 62,
     "muscle": "Triceps",
     "name": "Lying Dumbbell Tricep Extension",
     "target": [
@@ -1070,7 +1084,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Lying_Dumbbell_Tricep_Extension.mp4"
   },
   {
-    "id": 62,
+    "id": 63,
     "muscle": "Triceps",
     "name": "Overhead Cable Tricep Extension",
     "target": [
@@ -1084,7 +1098,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Overhead_Cable_Tricep_Extension.mp4"
   },
   {
-    "id": 63,
+    "id": 64,
     "muscle": "Triceps",
     "name": "Standing Overhead Dumbbell Tricep Extension",
     "target": [
