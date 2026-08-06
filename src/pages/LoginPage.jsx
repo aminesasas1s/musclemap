@@ -16,7 +16,8 @@ export default function LoginPage() {
     const normalizedEmail = email.trim().toLowerCase()
 
     try {
-      const res = await fetch('http://localhost:5175/api/login', {
+      const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5175'
+      const res = await fetch(`${API_BASE}/api/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: normalizedEmail, password })
@@ -33,8 +34,28 @@ export default function LoginPage() {
       setCurrentUser(data.user)
       navigate('/dashboard')
     } catch (err) {
-      console.error(err)
-      setError('Failed to connect to the server. Is it running?')
+      console.debug('Backend fetch failed, falling back to local storage', err)
+      // Fallback for Vercel / no backend
+      import('../data').then(({ findUserByEmail, adminAccount, clientAccount }) => {
+        let user = findUserByEmail(normalizedEmail)
+        
+        // Check hardcoded defaults
+        if (normalizedEmail === adminAccount.email && password === adminAccount.password) {
+          user = { email: adminAccount.email, role: 'admin', name: 'Admin' }
+        } else if (normalizedEmail === clientAccount.email && password === clientAccount.password) {
+          user = { email: clientAccount.email, role: 'user', name: 'Test User' }
+        }
+
+        if (!user || (user.password && user.password !== password)) {
+          setError('Invalid email or password.')
+          return
+        }
+
+        localStorage.setItem('musclemap-token', 'mock-token-' + Date.now())
+        localStorage.setItem('musclemap-role', user.role || 'user')
+        setCurrentUser(user)
+        navigate('/dashboard')
+      })
     }
   }
 

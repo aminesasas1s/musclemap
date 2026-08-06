@@ -20,7 +20,8 @@ export default function RegisterPage() {
     }
 
     try {
-      const res = await fetch('http://localhost:5175/api/register', {
+      const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5175'
+      const res = await fetch(`${API_BASE}/api/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password })
@@ -28,7 +29,7 @@ export default function RegisterPage() {
       const data = await res.json()
 
       if (!res.ok || !data.success) {
-        setError(data.message || 'Registration failed')
+        setError(data.message || 'Registration failed.')
         return
       }
 
@@ -37,8 +38,20 @@ export default function RegisterPage() {
       setCurrentUser(data.user)
       navigate('/dashboard')
     } catch (err) {
-      console.error(err)
-      setError('Failed to connect to the server. Is it running?')
+      console.debug('Backend fetch failed, falling back to local storage', err)
+      // Fallback for Vercel / no backend
+      import('../data').then(({ addUser }) => {
+        const newUser = addUser({ name, email, password })
+        if (!newUser) {
+          setError('Email already exists or invalid data.')
+          return
+        }
+
+        localStorage.setItem('musclemap-token', 'mock-token-' + Date.now())
+        localStorage.setItem('musclemap-role', newUser.role)
+        setCurrentUser(newUser)
+        navigate('/dashboard')
+      })
     }
   }
 
