@@ -123,7 +123,7 @@ export const updateExerciseVideo = (exerciseId, videoUrl, videoTitle = null) => 
 }
 
 export const muscles = [
-  'Neck', 'Traps', 'Shoulders', 'Chest', 'Back', 'Biceps', 'Triceps', 'Forearms', 'Lats', 'Abs', 'Obliques', 'Glutes', 'Quadriceps', 'Hamstrings', 'Adductors', 'Calves', 'Tibialis'
+  'Neck', 'Traps', 'Shoulders', 'Chest', 'Back', 'Biceps', 'Triceps', 'Forearms', 'Lats', 'Abs', 'Obliques', 'Glutes', 'Leg', 'Hamstrings', 'Adductors', 'Calves', 'Tibialis'
 ]
 
 export const muscleDetails = {
@@ -142,9 +142,9 @@ export const muscleDetails = {
     description: 'Shoulders support overhead work, stabilize the upper arm, and connect pressing power to the rest of the torso.',
     tags: ['Stability', 'Press', 'Balance'],
   },
-  Quadriceps: {
+  Leg: {
     image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=80',
-    description: 'Quadriceps power knee extension and support powerful squat and jump mechanics. Build them with progressive loading and depth-focused range.',
+    description: 'Legs power knee extension and support powerful squat and jump mechanics. Build them with progressive loading and depth-focused range.',
     tags: ['Leg Drive', 'Explosive', 'Strength'],
   },
   Glutes: {

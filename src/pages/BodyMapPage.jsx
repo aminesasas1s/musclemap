@@ -18,12 +18,12 @@ const routeMap = {
   adductor: 'adductors',
   abductors: 'glutes',
   hamstring: 'hamstrings',
-  quadriceps: 'quadriceps',
+  quadriceps: 'leg',
   calves: 'calves',
   gluteal: 'glutes',
   head: 'neck',
   neck: 'neck',
-  knees: 'quadriceps',
+  knees: 'leg',
   'left-soleus': 'calves',
   'right-soleus': 'calves'
 }
