@@ -378,6 +378,13 @@
     "title": "Seated Dumbbell Lateral Raise"
   },
   {
+    "muscle": "tibialis",
+    "slot": 1,
+    "path": "/uploads/gym/Tibialis/Tibialis training.mp4",
+    "videoUrl": "/uploads/gym/Tibialis/Tibialis training.mp4",
+    "title": "Tibialis training"
+  },
+  {
     "muscle": "traps",
     "slot": 1,
     "path": "/uploads/gym/traps/Behind_the_Back_Barbell_Shrug.mp4",

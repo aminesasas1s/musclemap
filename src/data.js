@@ -973,6 +973,20 @@ export const exerciseCatalog = [
   },
   {
     "id": 55,
+    "muscle": "Tibialis",
+    "name": "Tibialis training",
+    "target": [
+      "Tibialis"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Tibialis/Tibialis training.mp4"
+  },
+  {
+    "id": 56,
     "muscle": "Traps",
     "name": "Behind the Back Barbell Shrug",
     "target": [
@@ -986,7 +1000,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Behind_the_Back_Barbell_Shrug.mp4"
   },
   {
-    "id": 56,
+    "id": 57,
     "muscle": "Traps",
     "name": "Dumbbell Shrug",
     "target": [
@@ -1000,7 +1014,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Dumbbell_Shrug.mp4"
   },
   {
-    "id": 57,
+    "id": 58,
     "muscle": "Traps",
     "name": "Leaning Dumbbell Shrug",
     "target": [
@@ -1014,7 +1028,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Leaning_Dumbbell_Shrug.mp4"
   },
   {
-    "id": 58,
+    "id": 59,
     "muscle": "Traps",
     "name": "Overhead Barbell Shrug",
     "target": [
@@ -1028,7 +1042,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/Overhead_Barbell_Shrug.mp4"
   },
   {
-    "id": 59,
+    "id": 60,
     "muscle": "Traps",
     "name": "Single Arm Behind the Back Dumbbell Shrug",
     "target": [
@@ -1042,7 +1056,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/traps/SingleArm_Behind_the_Back_Dumbbell_Shrug.mp4"
   },
   {
-    "id": 60,
+    "id": 61,
     "muscle": "Triceps",
     "name": "Cable Tricep Pushdown",
     "target": [
@@ -1056,7 +1070,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Cable_Tricep_Pushdown.mp4"
   },
   {
-    "id": 61,
+    "id": 62,
     "muscle": "Triceps",
     "name": "Dumbbell Tricep Kickback",
     "target": [
@@ -1070,7 +1084,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Dumbbell_Tricep_Kickback.mp4"
   },
   {
-    "id": 62,
+    "id": 63,
     "muscle": "Triceps",
     "name": "Lying Dumbbell Tricep Extension",
     "target": [
@@ -1084,7 +1098,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Lying_Dumbbell_Tricep_Extension.mp4"
   },
   {
-    "id": 63,
+    "id": 64,
     "muscle": "Triceps",
     "name": "Overhead Cable Tricep Extension",
     "target": [
@@ -1098,7 +1112,7 @@ export const exerciseCatalog = [
     "videoUrl": "/uploads/gym/triceps/Overhead_Cable_Tricep_Extension.mp4"
   },
   {
-    "id": 64,
+    "id": 65,
     "muscle": "Triceps",
     "name": "Standing Overhead Dumbbell Tricep Extension",
     "target": [
