@@ -1,7 +1,18 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useEffect } from 'react'
+import { CURRENT_USER_KEY } from '../data'
 
 export default function AuthLayout() {
+  const navigate = useNavigate()
+  
+  useEffect(() => {
+    const user = localStorage.getItem(CURRENT_USER_KEY)
+    if (user) {
+      navigate('/dashboard', { replace: true })
+    }
+  }, [navigate])
+
   return (
     <div className="relative h-screen overflow-hidden bg-slate-950 text-white">
       <div className="absolute inset-0 opacity-60">

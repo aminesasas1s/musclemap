@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { addUser, setCurrentUser } from '../data'
+import { setCurrentUser } from '../data'
 
 export default function RegisterPage() {
   const navigate = useNavigate()
@@ -10,7 +10,7 @@ export default function RegisterPage() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
 
@@ -19,15 +19,27 @@ export default function RegisterPage() {
       return
     }
 
-    const newUser = addUser({ name, email, password })
-    if (!newUser) {
-      setError('This email is already registered or invalid.')
-      return
-    }
+    try {
+      const res = await fetch('http://localhost:5175/api/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, password })
+      })
+      const data = await res.json()
 
-    localStorage.setItem('musclemap-role', 'user')
-    setCurrentUser({ ...newUser, role: 'user' })
-    navigate('/dashboard')
+      if (!res.ok || !data.success) {
+        setError(data.message || 'Registration failed')
+        return
+      }
+
+      localStorage.setItem('musclemap-token', data.token)
+      localStorage.setItem('musclemap-role', data.user.role)
+      setCurrentUser(data.user)
+      navigate('/dashboard')
+    } catch (err) {
+      console.error(err)
+      setError('Failed to connect to the server. Is it running?')
+    }
   }
 
   return (

@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { NavLink, Outlet, useNavigate, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LayoutDashboard, Activity, Dumbbell, CalendarClock, Heart, UserCircle2, Settings, LogOut, BarChart3, Award, Leaf, Sparkles, Menu, X } from 'lucide-react'
 import { CURRENT_USER_KEY } from '../data'
@@ -19,7 +19,15 @@ const navItems = [
 
 export default function DashboardLayout() {
   const navigate = useNavigate()
+  const location = useLocation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  useEffect(() => {
+    const user = localStorage.getItem(CURRENT_USER_KEY)
+    if (!user) {
+      navigate('/login', { replace: true, state: { from: location.pathname } })
+    }
+  }, [navigate, location])
 
   const handleLogout = () => {
     localStorage.removeItem('musclemap-role')

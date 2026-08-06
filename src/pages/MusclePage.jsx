@@ -22,13 +22,16 @@ export default function MusclePage() {
         const res = await fetch(`${API_BASE}/api/uploads`)
         const json = await res.json()
         if (json?.success) {
-          const normalized = (json.uploads || []).map(u => ({
-            muscle: (u.muscle || '').trim(),
-            slot: Number(u.slot || 1),
-            path: u.path,
-            videoUrl: u.videoUrl || (u.path && u.path.startsWith('/') ? `${API_BASE}${u.path}` : u.path),
-            title: u.title,
-          }))
+          const normalized = (json.uploads || []).map(u => {
+            const rawUrl = u.videoUrl || u.path || ''
+            return {
+              muscle: (u.muscle || '').trim(),
+              slot: Number(u.slot || 1),
+              path: u.path,
+              videoUrl: rawUrl.startsWith('/') ? `${API_BASE}${rawUrl}` : rawUrl,
+              title: u.title,
+            }
+          })
           console.debug('[MusclePage] loaded uploads', normalized)
           setUploadedVideos(normalized)
         }
@@ -41,13 +44,16 @@ export default function MusclePage() {
     const onCustom = (e) => {
       if (e?.detail) {
         const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5175'
-        const normalized = (e.detail || []).map(u => ({
-          muscle: (u.muscle || '').trim(),
-          slot: Number(u.slot || 1),
-          path: u.path,
-          videoUrl: u.videoUrl || (u.path && u.path.startsWith('/') ? `${API_BASE}${u.path}` : u.path),
-          title: u.title,
-        }))
+        const normalized = (e.detail || []).map(u => {
+          const rawUrl = u.videoUrl || u.path || ''
+          return {
+            muscle: (u.muscle || '').trim(),
+            slot: Number(u.slot || 1),
+            path: u.path,
+            videoUrl: rawUrl.startsWith('/') ? `${API_BASE}${rawUrl}` : rawUrl,
+            title: u.title,
+          }
+        })
         console.debug('[MusclePage] event uploads updated', normalized)
         setUploadedVideos(normalized)
       }
