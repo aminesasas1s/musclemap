@@ -1,0 +1,262 @@
+{
+  "Chest": [
+    {
+      "id": 1,
+      "name": "Flat Barbell Bench Press"
+    },
+    {
+      "id": 2,
+      "name": "Incline Barbell Bench Press"
+    },
+    {
+      "id": 3,
+      "name": "High-to-Low Cable Fly"
+    },
+    {
+      "id": 4,
+      "name": "Pec Deck Machine Fly"
+    },
+    {
+      "id": 5,
+      "name": "Low-to-High Cable Fly"
+    },
+    {
+      "id": 41,
+      "name": "Standing Cable Fly"
+    }
+  ],
+  "Quadriceps": [
+    {
+      "id": 6,
+      "name": "Dumbbell Walking Lunge"
+    },
+    {
+      "id": 7,
+      "name": "Leg Press (Glute Focus)"
+    },
+    {
+      "id": 8,
+      "name": "Leg Press (Quad Focus)"
+    },
+    {
+      "id": 9,
+      "name": "Leg Press (Inner Thighs)"
+    },
+    {
+      "id": 10,
+      "name": "Leg Extension"
+    },
+    {
+      "id": 52,
+      "name": "Lying Leg Curl (Inner Focus)"
+    },
+    {
+      "id": 53,
+      "name": "Lying Leg Curl (Outer Focus)"
+    },
+    {
+      "id": 54,
+      "name": "Lying Leg Curl (Entire)"
+    }
+  ],
+  "Calves": [
+    {
+      "id": 11,
+      "name": "Standing Calf Raise (Inner)"
+    },
+    {
+      "id": 12,
+      "name": "Standing Calf Raise (Outer)"
+    },
+    {
+      "id": 13,
+      "name": "Standing Calf Raise (Entire)"
+    }
+  ],
+  "Shoulders": [
+    {
+      "id": 14,
+      "name": "Machine Shoulder Press"
+    },
+    {
+      "id": 15,
+      "name": "Seated Dumbbell Lateral Raise"
+    },
+    {
+      "id": 16,
+      "name": "Machine Reverse Fly"
+    },
+    {
+      "id": 17,
+      "name": "Seated Dumbbell Front Raise"
+    }
+  ],
+  "Back": [
+    {
+      "id": 18,
+      "name": "Seated Cable Row (Mid Back Focus)"
+    },
+    {
+      "id": 19,
+      "name": "Seated Cable Row (Upper Back Focus)"
+    },
+    {
+      "id": 20,
+      "name": "Seated Cable Row (Lats Focus)"
+    },
+    {
+      "id": 21,
+      "name": "Barbell Row"
+    },
+    {
+      "id": 22,
+      "name": "Lat Pulldown (Upper Lats Focus)"
+    },
+    {
+      "id": 38,
+      "name": "Lat Pulldown (Lower Lats Focus)"
+    },
+    {
+      "id": 39,
+      "name": "Lat Pulldown (Entire Lats Focus)"
+    },
+    {
+      "id": 40,
+      "name": "Underhand Lat Pulldown (Lower Lats Focus)"
+    }
+  ],
+  "Traps": [
+    {
+      "id": 23,
+      "name": "Behind the Back Barbell Shrug"
+    },
+    {
+      "id": 24,
+      "name": "Single-Arm Behind the Back Dumbbell Shrug"
+    },
+    {
+      "id": 25,
+      "name": "Overhead Barbell Shrug"
+    },
+    {
+      "id": 26,
+      "name": "Dumbbell Shrug"
+    },
+    {
+      "id": 27,
+      "name": "Leaning Dumbbell Shrug"
+    }
+  ],
+  "Biceps": [
+    {
+      "id": 28,
+      "name": "Standing Dumbbell Curl"
+    },
+    {
+      "id": 29,
+      "name": "Incline Dumbbell Curl"
+    },
+    {
+      "id": 30,
+      "name": "Single-Arm Dumbbell Preacher Curl"
+    },
+    {
+      "id": 31,
+      "name": "Seated Dumbbell Curl"
+    },
+    {
+      "id": 32,
+      "name": "EZ Bar Preacher Curl"
+    }
+  ],
+  "Triceps": [
+    {
+      "id": 33,
+      "name": "Cable Tricep Pushdown"
+    },
+    {
+      "id": 56,
+      "name": "Lying Dumbbell Tricep Extension"
+    },
+    {
+      "id": 57,
+      "name": "Standing Overhead Dumbbell Tricep Extension"
+    },
+    {
+      "id": 58,
+      "name": "Dumbbell Tricep Kickback"
+    },
+    {
+      "id": 59,
+      "name": "Overhead Cable Tricep Extension"
+    }
+  ],
+  "Abs": [
+    {
+      "id": 34,
+      "name": "Reverse Crunches (Lower Abs)"
+    },
+    {
+      "id": 35,
+      "name": "Crunches (Upper Abs)"
+    },
+    {
+      "id": 36,
+      "name": "Alternating V-Ups (Full Abs)"
+    },
+    {
+      "id": 37,
+      "name": "Lying Leg Twists (Abdominals)"
+    }
+  ],
+  "Forearms": [
+    {
+      "id": 42,
+      "name": "Reverse Grip Curls"
+    },
+    {
+      "id": 43,
+      "name": "Wrist Curls"
+    },
+    {
+      "id": 44,
+      "name": "Reverse Wrist Curls"
+    },
+    {
+      "id": 45,
+      "name": "Dumbbell Radial Deviation"
+    },
+    {
+      "id": 46,
+      "name": "Dumbbell Ulnar Deviation"
+    },
+    {
+      "id": 47,
+      "name": "Wrist Rotations"
+    }
+  ],
+  "Glutes": [
+    {
+      "id": 48,
+      "name": "Kettlebell RDL"
+    },
+    {
+      "id": 49,
+      "name": "Kettlebell Glute Bridge"
+    },
+    {
+      "id": 50,
+      "name": "Kettlebell Side-Lying Kickback"
+    },
+    {
+      "id": 51,
+      "name": "Kettlebell Sumo Squat"
+    }
+  ],
+  "Obliques": [
+    {
+      "id": 55,
+      "name": "Plank"
+    }
+  ]
+}

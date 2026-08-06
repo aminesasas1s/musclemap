@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "muscle": "Chest",
+    "name": "Barbell Bench Press"
+  },
+  {
+    "id": 2,
+    "muscle": "Quadriceps",
+    "name": "Back Squat"
+  },
+  {
+    "id": 3,
+    "muscle": "Back",
+    "name": "Pull-Up"
+  },
+  {
+    "id": 4,
+    "muscle": "Shoulders",
+    "name": "Seated Dumbbell Shoulder Press"
+  },
+  {
+    "id": 5,
+    "muscle": "Biceps",
+    "name": "Incline Dumbbell Curl"
+  },
+  {
+    "id": 6,
+    "muscle": "Hamstrings",
+    "name": "Romanian Deadlift"
+  },
+  {
+    "id": 7,
+    "muscle": "Abs",
+    "name": "Cable Crunch"
+  },
+  {
+    "id": 8,
+    "muscle": "Calves",
+    "name": "Standing Calf Raise"
+  },
+  {
+    "id": 9,
+    "muscle": "Chest",
+    "name": "Incline Dumbbell Press"
+  },
+  {
+    "id": 10,
+    "muscle": "Chest",
+    "name": "Chest Fly"
+  },
+  {
+    "id": 11,
+    "muscle": "Chest",
+    "name": "Push-Ups"
+  },
+  {
+    "id": 12,
+    "muscle": "Triceps",
+    "name": "Triceps Pushdown"
+  },
+  {
+    "id": 13,
+    "muscle": "Triceps",
+    "name": "Overhead Triceps Extension"
+  },
+  {
+    "id": 14,
+    "muscle": "Back",
+    "name": "Barbell Row"
+  },
+  {
+    "id": 15,
+    "muscle": "Back",
+    "name": "Lat Pulldown"
+  },
+  {
+    "id": 16,
+    "muscle": "Back",
+    "name": "Seated Cable Row"
+  },
+  {
+    "id": 17,
+    "muscle": "Biceps",
+    "name": "Barbell Curl"
+  },
+  {
+    "id": 18,
+    "muscle": "Biceps",
+    "name": "Hammer Curl"
+  },
+  {
+    "id": 19,
+    "muscle": "Legs",
+    "name": "Walking Lunges"
+  },
+  {
+    "id": 20,
+    "muscle": "Legs",
+    "name": "Leg Press"
+  },
+  {
+    "id": 21,
+    "muscle": "Hamstrings",
+    "name": "Leg Curl"
+  },
+  {
+    "id": 22,
+    "muscle": "Shoulders",
+    "name": "Overhead Press"
+  },
+  {
+    "id": 23,
+    "muscle": "Shoulders",
+    "name": "Lateral Raises"
+  },
+  {
+    "id": 24,
+    "muscle": "Shoulders",
+    "name": "Front Raises"
+  },
+  {
+    "id": 25,
+    "muscle": "Shoulders",
+    "name": "Rear Delt Fly"
+  },
+  {
+    "id": 26,
+    "muscle": "Back",
+    "name": "Face Pulls"
+  },
+  {
+    "id": 27,
+    "muscle": "Abs",
+    "name": "Plank"
+  },
+  {
+    "id": 28,
+    "muscle": "Abs",
+    "name": "Hanging Leg Raises"
+  },
+  {
+    "id": 29,
+    "muscle": "Abs",
+    "name": "Russian Twists"
+  },
+  {
+    "id": 30,
+    "muscle": "Chest",
+    "name": "Close-Grip Bench Press"
+  },
+  {
+    "id": 31,
+    "muscle": "Biceps",
+    "name": "EZ Bar Curl"
+  },
+  {
+    "id": 32,
+    "muscle": "Triceps",
+    "name": "Skull Crushers"
+  },
+  {
+    "id": 33,
+    "muscle": "Triceps",
+    "name": "Rope Pushdown"
+  },
+  {
+    "id": 34,
+    "muscle": "Forearms",
+    "name": "Wrist Curls"
+  },
+  {
+    "id": 35,
+    "muscle": "Forearms",
+    "name": "Reverse Wrist Curls"
+  },
+  {
+    "id": 36,
+    "muscle": "Back",
+    "name": "Deadlift"
+  },
+  {
+    "id": 37,
+    "muscle": "Full Body",
+    "name": "Mountain Climbers"
+  },
+  {
+    "id": 38,
+    "muscle": "Full Body",
+    "name": "Burpees"
+  }
+]

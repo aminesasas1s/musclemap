@@ -1,0 +1,98 @@
+import { useNavigate } from 'react-router-dom'
+import { muscles } from '../data'
+import bodyImage from '../../pictures/body.jpg'
+
+const bodyMapRegions = [
+  { title: 'neck', href: 'neck', coords: '262,191,262,142,243,171,230,173,216,166,207,155,199,146,199,171,199,187,202,203,206,219,231,229,247,225,257,218', route: 'neck' },
+  { title: 'trapezius', href: 'trapezius', coords: '135,202,197,174,199,187,201,197,202,207,204,216,217,224,232,227,258,215,261,197,262,177,280,179,297,188,311,195,318,200,309,206,290,210,271,214,252,223,228,232,195,217,176,213,158,213,143,207', route: 'traps' },
+  { title: 'chest', href: 'chest', coords: '261,309,294,303,317,285,326,267,318,252,306,229,289,218,269,215,247,227,227,236,195,220,166,214,156,236,144,256,132,273,142,289,152,301,177,309,203,310,216,308,229,302,245,308', route: 'chest' },
+  { title: 'bicep', href: 'bicep', coords: '145,295,136,357,136,378,111,382,98,379,91,361,97,332,92,312,93,288,102,300,115,273,126,272,136,288,134,276,138,284,136,288', route: 'biceps' },
+  { title: 'bicep', href: 'bicep', coords: '360,287,373,357,359,374,346,380,337,385,329,384,325,351,324,332,321,321,316,304,314,293,323,278,332,272,353,276', route: 'biceps' },
+  { title: 'abs', href: 'abs', coords: '292,307,272,368,267,460,193,463,185,415,185,366,180,336,166,308,230,312,260,311', route: 'abs' },
+  { title: 'back', href: 'back', coords: '811,270,781,356,775,386,770,404,737,424,734,390,709,346,682,386,681,420,643,403,631,355,616,323,605,271,644,256,690,198,707,217,719,199,774,255', route: 'back' },
+  { title: 'triceps', href: 'triceps', coords: '620,339,612,374,615,383,596,397,602,360,595,341,584,341,580,378,577,393,574,366,571,346,577,313,589,281,605,269,608,301', route: 'triceps' },
+  { title: 'triceps', href: 'triceps', coords: '816,269,838,306,847,344,853,370,841,367,840,390,834,369,835,339,826,342,817,352,818,378,818,395,803,385,800,356,794,334,803,309', route: 'triceps' },
+  { title: 'deltoid', href: 'deltoid', coords: '155,212,157,232,140,260,123,273,104,293,94,278,92,246,103,220,121,206,140,208', route: 'shoulders' },
+  { title: 'shoulder', href: 'shoulder', coords: '365,301,370,265,365,235,344,211,327,206,310,207,289,213,303,225,316,245,325,263,341,270,358,277,361,286', route: 'shoulders' },
+  { title: 'shoulder back', href: 'shoulder back', coords: '666,238,624,219,604,206,588,211,576,230,570,248,568,276,579,304,590,280,603,267,628,260,643,255', route: 'shoulders' },
+  { title: 'shoulder back', href: 'shoulder back', coords: '752,235,775,254,809,267,826,278,837,304,848,276,846,242,832,218,822,206,797,206,775,219', route: 'shoulders' },
+  { title: 'leg', href: 'leg', coords: '301,451,319,514,327,578,316,669,307,708,308,771,323,809,319,875,308,930,303,979,308,1005,266,1010,265,989,272,945,265,915,262,881,254,865,258,788,252,757,250,672,243,599,237,539,233,507,226,510,228,607,220,663,225,719,216,768,212,783,214,833,217,859,207,882,201,937,198,963,207,998,203,1017,164,1020,162,1005,168,991,164,947,151,885,146,827,158,786,162,772,162,715,153,661,145,596,145,547,152,515,159,487,163,465,169,450,196,462,215,489,228,500,260,495,274,469,293,450,307,442', route: 'quadriceps' },
+  { title: 'back vombra', href: 'back vombra', coords: '592,406,606,394,601,430,589,465,570,508,534,499,541,467,550,428,550,406,558,385,569,370,574,377,576,390,584,398', route: 'lower-back' },
+  { title: 'back vombra', href: 'back vombra', coords: '843,369,852,372,862,393,865,415,865,426,873,455,879,488,884,504,852,516,837,487,824,458,816,433,810,404,810,391,822,407,832,402,840,393', route: 'lower-back' },
+  { title: 'vombra', href: 'vombra', coords: '129,390,121,442,107,479,92,513,58,504,69,455,73,420,79,391,87,380', route: 'obliques' },
+  { title: 'vombra', href: 'vombra', coords: '378,377,390,402,393,446,408,503,376,516,367,498,351,467,341,440,338,409,336,394', route: 'obliques' },
+  { title: 'obliques', href: 'obliques', coords: '317,326,305,353,297,393,299,425,299,437,271,459,273,396,277,360,292,319,297,304,312,293,316,308,320,317', route: 'obliques' },
+  { title: 'obliques', href: 'obliques', coords: '147,298,143,321,149,336,156,349,161,361,161,381,165,401,162,420,161,440,169,450,190,459,185,433,183,407,184,381,182,357,174,330,159,307', route: 'obliques' },
+  { title: 'glutes', href: 'glutes', coords: '737,452,759,438,771,441,787,459,794,473,782,501,785,523,784,552,763,561,737,550,721,535,704,548,668,560,652,561,652,540,652,511,651,488,642,480,647,468,657,447,672,435,687,443,694,451,706,471,719,488', route: 'glutes' },
+  { title: 'calves', href: 'calves', coords: '694,853,685,883,676,886,660,865,631,861,622,828,630,799,638,777,657,737,667,762,677,740,690,784', route: 'calves' },
+  { title: 'calves', href: 'calves', coords: '770,766,759,742,741,781,742,867,761,890,777,864,802,862,811,831,808,801,793,771,777,738', route: 'calves' },
+  { title: 'quads', href: 'quads', coords: '794,747,796,703,811,615,815,561,797,555,773,563,760,567,730,552,721,540,711,543,707,553,675,562,654,565,638,554,624,554,626,624,637,693,641,711,642,759,654,736,665,703,674,728,683,748,693,769,698,738,701,697,696,660,705,615,710,565,713,551,719,549,723,553,724,565,728,588,730,610,733,644,737,666,736,697,735,738,740,764,752,746,761,724,770,702,776,727,783,741', route: 'quadriceps' },
+]
+
+function BodyArt({ navigate }) {
+  return (
+    <div className="relative mx-auto w-full max-w-[620px] overflow-hidden rounded-[16px] sm:rounded-[22px] border border-slate-800 bg-slate-950/50 p-2 sm:p-3">
+      <img src={bodyImage} alt="Body map" className="w-full -translate-x-5 translate-y-1 rounded-[18px] object-contain" />
+
+      <svg viewBox="0 0 1020 1100" className="pointer-events-none absolute inset-0 h-full w-full ">
+        {bodyMapRegions.map((area) => (
+          <polygon
+            key={`${area.title}-${area.href}-${area.coords}`}
+            points={area.coords}
+            className="pointer-events-auto cursor-pointer fill-transparent stroke-transparent transition-all duration-150 hover:fill-blue-400/35 hover:stroke-blue-300"
+            onClick={() => navigate(`/muscle/${area.route}`)}
+            onMouseEnter={(event) => {
+              event.currentTarget.setAttribute('fill', 'rgba(59,130,246,0.35)')
+              event.currentTarget.setAttribute('stroke', '#60a5fa')
+              event.currentTarget.setAttribute('stroke-width', '4')
+            }}
+            onMouseLeave={(event) => {
+              event.currentTarget.setAttribute('fill', 'transparent')
+              event.currentTarget.setAttribute('stroke', 'transparent')
+              event.currentTarget.setAttribute('stroke-width', '0')
+            }}
+          />
+        ))}
+      </svg>
+    </div>
+  )
+}
+
+export default function BodyMapPage() {
+  const navigate = useNavigate()
+
+  return (
+    <div className="space-y-6">
+      <div className="glass rounded-[20px] sm:rounded-[28px] border border-slate-800 bg-slate-950/50 p-4 sm:p-5 md:p-7">
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-[14px] font-semibold uppercase tracking-[0.24em] text-blue-400">Body Map</p>
+            <p className="mt-2 text-sm text-slate-400">Click the body image regions to jump to the matching muscle pages.</p>
+          </div>
+          <button className="rounded-full border border-blue-400/40 bg-slate-900/80 px-4 py-2 text-xs text-blue-200">How it works</button>
+        </div>
+      </div>
+
+      <div className="rounded-[20px] sm:rounded-[28px] border border-slate-800 bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.15),_transparent_18%),linear-gradient(180deg,_rgba(7,12,29,0.92),_rgba(3,8,24,0.92))] p-3 sm:p-4">
+        <BodyArt navigate={navigate} />
+      </div>
+
+      <div className="flex items-center gap-2 text-sm text-slate-300">
+        <span className="h-2.5 w-2.5 rounded-full bg-blue-500 shadow-[0_0_12px_rgba(59,130,246,0.9)]" />
+        <span>Click on any muscle below to see exercises</span>
+      </div>
+
+      <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {muscles.map((muscle) => (
+          <button
+            key={muscle}
+            onClick={() => navigate(`/muscle/${muscle.toLowerCase().replace(/\s+/g, '-')}`)}
+            className="rounded-2xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-left text-sm text-slate-200 transition hover:border-brand hover:bg-brand/10"
+          >
+            {muscle}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}

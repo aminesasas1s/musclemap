@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: white;
+  background: #020617;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(59,130,246,0.2), transparent 30%),
+    #020617;
+}
+
+/* Ensure the app root fills the viewport so tailwind h-screen behaves predictably */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  backdrop-filter: blur(18px);
+}
+
+.neon-ring {
+  box-shadow: 0 0 0 1px rgba(59,130,246,0.35), 0 0 24px rgba(59,130,246,0.35);
+}
+
+body.map-bg {
+  background:
+    radial-gradient(circle at center, rgba(59,130,246,0.2), transparent 30%),
+    #020617;
+}
+
+.body-map-svg {
+  filter: drop-shadow(0 0 22px rgba(59,130,246,0.11));
+}
+
+.body-map-svg rect {
+  transition: all 150ms ease;
+}
+
+.body-map-svg rect:hover {
+  fill: rgba(59,130,246,0.23);
+  stroke: #3B82F6;
+  stroke-width: 1.6;
+}
+
+.plan-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.plan-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(59,130,246,0.12), transparent 55%);
+  pointer-events: none;
+}
+
+.plan-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59,130,246,0.4);
+  box-shadow: 0 16px 50px rgba(2, 8, 23, 0.32);
+}
+
+/* ===== Responsive & Mobile Enhancements ===== */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Better touch targets & scrolling */
+@media (pointer: coarse) {
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+
+  /* Disable hover lift animations on touch devices */
+  .plan-card:hover {
+    transform: none;
+  }
+}
+
+/* Scrollbar styling for main content */
+main::-webkit-scrollbar {
+  width: 6px;
+}
+main::-webkit-scrollbar-track {
+  background: transparent;
+}
+main::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.15);
+  border-radius: 3px;
+}
+main::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.3);
+}
+
+/* Safe area padding for notched devices (iPhone X+) */
+@supports (padding: env(safe-area-inset-bottom)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Prevent horizontal overflow on mobile */
+#root {
+  overflow-x: hidden;
+}
+
+/* Video elements responsive sizing */
+video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix images not overflowing their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Touch-friendly select dropdowns on mobile */
+@media (max-width: 640px) {
+  select {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+}

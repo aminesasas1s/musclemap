@@ -1,0 +1,32 @@
+{
+  "name": "musclemap",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "framer-motion": "^11.3.19",
+    "lucide-react": "^0.453.0",
+    "multer": "^1.4.5-lts.1",
+    "react": "^18.3.1",
+    "react-body-highlighter": "^2.0.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recharts": "^2.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "vite": "^5.4.10"
+  }
+}
