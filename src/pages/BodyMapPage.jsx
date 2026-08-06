@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { muscles } from '../data'
-import Model from 'react-body-highlighter'
+
+// Lazy load the heavy SVG body map — only fetched when this page is visited
+const Model = lazy(() => import('react-body-highlighter'))
 
 const routeMap = {
   trapezius: 'traps',
@@ -81,12 +83,16 @@ export default function BodyMapPage() {
               filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.8));
             }
           `}</style>
-          <Model
-            data={[]}
-            style={{ width: '20rem', padding: '1rem' }}
-            onClick={handleClick}
-            type={modelType}
-          />
+          <Suspense fallback={
+            <div className="h-80 w-48 animate-pulse rounded-xl bg-slate-800/60" />
+          }>
+            <Model
+              data={[]}
+              style={{ width: '20rem', padding: '1rem' }}
+              onClick={handleClick}
+              type={modelType}
+            />
+          </Suspense>
         </div>
       </div>
 

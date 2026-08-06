@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { memo, useCallback, useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Search, Bell, Sparkles, Flame, HeartPulse, CalendarDays, TimerReset, ArrowRight, Trophy, Droplet, ShieldCheck, BadgeCheck, Activity, Target, Star, Heart } from 'lucide-react'
@@ -27,7 +27,7 @@ const baseRecoveryData = [
   { muscle: 'Shoulders', value: 100, color: 'bg-emerald-500' },
 ]
 
-function StatsCard({ label, value, icon: Icon, progress, note }) {
+const StatsCard = memo(function StatsCard({ label, value, icon: Icon, progress, note }) {
   return (
     <motion.div whileHover={{ y: -6 }} className="glass group rounded-[20px] p-4 sm:p-5 shadow-2xl shadow-slate-950/20 transition duration-300 hover:-translate-y-1">
       <div className="flex items-center justify-between">
@@ -45,9 +45,9 @@ function StatsCard({ label, value, icon: Icon, progress, note }) {
       <p className="mt-3 text-xs text-slate-400">{note}</p>
     </motion.div>
   )
-}
+})
 
-function ProgressBar({ label, value, status }) {
+const ProgressBar = memo(function ProgressBar({ label, value, status }) {
   return (
     <div className="space-y-2">
       <div className="flex items-center justify-between text-sm text-slate-300">
@@ -59,7 +59,7 @@ function ProgressBar({ label, value, status }) {
       </div>
     </div>
   )
-}
+})
 
 function RecoveryRow({ muscle, value, color }) {
   return (
