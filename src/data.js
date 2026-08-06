@@ -890,7 +890,7 @@ export const exerciseCatalog = [
   {
     "id": 49,
     "muscle": "Neck",
-    "name": "n1",
+    "name": "neck exercises",
     "target": [
       "Neck"
     ],
