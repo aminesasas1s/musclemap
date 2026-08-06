@@ -217,6 +217,286 @@ export const muscleDetails = {
 export const exerciseCatalog = [
   {
     "id": 1,
+    "muscle": "Abs",
+    "name": "Alternating VUps Full Abs",
+    "target": [
+      "Abs"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/abs/Alternating_VUps_Full_Abs.mp4"
+  },
+  {
+    "id": 2,
+    "muscle": "Abs",
+    "name": "Crunches Upper Abs",
+    "target": [
+      "Abs"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/abs/Crunches_Upper_Abs.mp4"
+  },
+  {
+    "id": 3,
+    "muscle": "Abs",
+    "name": "Lying Leg Twists Abdominals",
+    "target": [
+      "Abs"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/abs/Lying_Leg_Twists_Abdominals.mp4"
+  },
+  {
+    "id": 4,
+    "muscle": "Abs",
+    "name": "Reverse Crunches Lower Abs",
+    "target": [
+      "Abs"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/abs/Reverse_Crunches_Lower_Abs.mp4"
+  },
+  {
+    "id": 5,
+    "muscle": "Back",
+    "name": "Barbell Row",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Barbell_Row.mp4"
+  },
+  {
+    "id": 6,
+    "muscle": "Back",
+    "name": "Lat Pulldown Entire Lats Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Entire_Lats_Focus.mp4"
+  },
+  {
+    "id": 7,
+    "muscle": "Back",
+    "name": "Lat Pulldown Lower Lats Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Lower_Lats_Focus.mp4"
+  },
+  {
+    "id": 8,
+    "muscle": "Back",
+    "name": "Lat Pulldown Upper Lats Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Upper_Lats_Focus.mp4"
+  },
+  {
+    "id": 9,
+    "muscle": "Back",
+    "name": "Seated Cable Row Lats Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Lats_Focus.mp4"
+  },
+  {
+    "id": 10,
+    "muscle": "Back",
+    "name": "Seated Cable Row Mid Back Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Mid_Back_Focus.mp4"
+  },
+  {
+    "id": 11,
+    "muscle": "Back",
+    "name": "Seated Cable Row Upper Back Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Upper_Back_Focus.mp4"
+  },
+  {
+    "id": 12,
+    "muscle": "Back",
+    "name": "Underhand Lat Pulldown Lower Lats Focus",
+    "target": [
+      "Back"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/back/Underhand_Lat_Pulldown_Lower_Lats_Focus.mp4"
+  },
+  {
+    "id": 13,
+    "muscle": "Bicep",
+    "name": "EZ Bar Preacher Curl",
+    "target": [
+      "Bicep"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/bicep/EZ_Bar_Preacher_Curl.mp4"
+  },
+  {
+    "id": 14,
+    "muscle": "Bicep",
+    "name": "Incline Dumbbell Curl",
+    "target": [
+      "Bicep"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/bicep/Incline_Dumbbell_Curl.mp4"
+  },
+  {
+    "id": 15,
+    "muscle": "Bicep",
+    "name": "Seated Dumbbell Curl",
+    "target": [
+      "Bicep"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/bicep/Seated_Dumbbell_Curl.mp4"
+  },
+  {
+    "id": 16,
+    "muscle": "Bicep",
+    "name": "Single Arm Dumbbell Preacher Curl",
+    "target": [
+      "Bicep"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/bicep/SingleArm_Dumbbell_Preacher_Curl.mp4"
+  },
+  {
+    "id": 17,
+    "muscle": "Bicep",
+    "name": "Standing Dumbbell Curl",
+    "target": [
+      "Bicep"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/bicep/Standing_Dumbbell_Curl.mp4"
+  },
+  {
+    "id": 18,
+    "muscle": "Calves",
+    "name": "Standing Calf Raise Entire",
+    "target": [
+      "Calves"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Entire.mp4"
+  },
+  {
+    "id": 19,
+    "muscle": "Calves",
+    "name": "Standing Calf Raise Inner",
+    "target": [
+      "Calves"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Inner.mp4"
+  },
+  {
+    "id": 20,
+    "muscle": "Calves",
+    "name": "Standing Calf Raise Outer",
+    "target": [
+      "Calves"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Outer.mp4"
+  },
+  {
+    "id": 21,
     "muscle": "Chest",
     "name": "Flat Barbell Bench Press",
     "target": [
@@ -227,10 +507,24 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594379-vz45ll.mp4"
+    "videoUrl": "/uploads/gym/chest/Flat_Barbell_Bench_Press.mp4"
   },
   {
-    "id": 2,
+    "id": 22,
+    "muscle": "Chest",
+    "name": "Highto Low Cable Fly",
+    "target": [
+      "Chest"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/chest/HightoLow_Cable_Fly.mp4"
+  },
+  {
+    "id": 23,
     "muscle": "Chest",
     "name": "Incline Barbell Bench Press",
     "target": [
@@ -241,12 +535,12 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594396-ktrqeb.mp4"
+    "videoUrl": "/uploads/gym/chest/Incline_Barbell_Bench_Press.mp4"
   },
   {
-    "id": 3,
+    "id": 24,
     "muscle": "Chest",
-    "name": "High-to-Low Cable Fly",
+    "name": "Lowto High Cable Fly",
     "target": [
       "Chest"
     ],
@@ -255,10 +549,10 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594410-u2t9pe.mp4"
+    "videoUrl": "/uploads/gym/chest/LowtoHigh_Cable_Fly.mp4"
   },
   {
-    "id": 4,
+    "id": 25,
     "muscle": "Chest",
     "name": "Pec Deck Machine Fly",
     "target": [
@@ -269,514 +563,10 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594423-0ij5xv.mp4"
-  },
-  {
-    "id": 5,
-    "muscle": "Chest",
-    "name": "Low-to-High Cable Fly",
-    "target": [
-      "Chest"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594434-f9375w.mp4"
-  },
-  {
-    "id": 6,
-    "muscle": "Quadriceps",
-    "name": "Dumbbell Walking Lunge",
-    "target": [
-      "Quadriceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594519-v03uwq.mp4"
-  },
-  {
-    "id": 7,
-    "muscle": "Quadriceps",
-    "name": "Leg Press (Glute Focus)",
-    "target": [
-      "Quadriceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594528-yqk9jj.mp4"
-  },
-  {
-    "id": 8,
-    "muscle": "Quadriceps",
-    "name": "Leg Press (Quad Focus)",
-    "target": [
-      "Quadriceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594540-7c0ica.mp4"
-  },
-  {
-    "id": 9,
-    "muscle": "Quadriceps",
-    "name": "Leg Press (Inner Thighs)",
-    "target": [
-      "Quadriceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594549-12lxzn.mp4"
-  },
-  {
-    "id": 10,
-    "muscle": "Quadriceps",
-    "name": "Leg Extension",
-    "target": [
-      "Quadriceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594560-awvcyw.mp4"
-  },
-  {
-    "id": 11,
-    "muscle": "Calves",
-    "name": "Standing Calf Raise (Inner)",
-    "target": [
-      "Calves"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/calves-1785970594355-3b09ev.mp4"
-  },
-  {
-    "id": 12,
-    "muscle": "Calves",
-    "name": "Standing Calf Raise (Outer)",
-    "target": [
-      "Calves"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/calves-1785970594363-bsowge.mp4"
-  },
-  {
-    "id": 13,
-    "muscle": "Calves",
-    "name": "Standing Calf Raise (Entire)",
-    "target": [
-      "Calves"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/calves-1785970594371-chu1yi.mp4"
-  },
-  {
-    "id": 14,
-    "muscle": "Shoulders",
-    "name": "Machine Shoulder Press",
-    "target": [
-      "Shoulders"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/shoulders-1785970594602-uxomfy.mp4"
-  },
-  {
-    "id": 15,
-    "muscle": "Shoulders",
-    "name": "Seated Dumbbell Lateral Raise",
-    "target": [
-      "Shoulders"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/shoulders-1785970594613-e61z07.mp4"
-  },
-  {
-    "id": 16,
-    "muscle": "Shoulders",
-    "name": "Machine Reverse Fly",
-    "target": [
-      "Shoulders"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/shoulders-1785970594630-gkx4sz.mp4"
-  },
-  {
-    "id": 17,
-    "muscle": "Shoulders",
-    "name": "Seated Dumbbell Front Raise",
-    "target": [
-      "Shoulders"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/shoulders-1785970594639-9st2ej.mp4"
-  },
-  {
-    "id": 18,
-    "muscle": "Back",
-    "name": "Seated Cable Row (Mid Back Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594209-pyn1zj.mp4"
-  },
-  {
-    "id": 19,
-    "muscle": "Back",
-    "name": "Seated Cable Row (Upper Back Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594219-a34dyu.mp4"
-  },
-  {
-    "id": 20,
-    "muscle": "Back",
-    "name": "Seated Cable Row (Lats Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594232-jpyb8y.mp4"
-  },
-  {
-    "id": 21,
-    "muscle": "Back",
-    "name": "Barbell Row",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594245-cbwmlb.mp4"
-  },
-  {
-    "id": 22,
-    "muscle": "Back",
-    "name": "Lat Pulldown (Upper Lats Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594256-bp84mh.mp4"
-  },
-  {
-    "id": 23,
-    "muscle": "Traps",
-    "name": "Behind the Back Barbell Shrug",
-    "target": [
-      "Traps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/traps-1785970594658-ftnrks.mp4"
-  },
-  {
-    "id": 24,
-    "muscle": "Traps",
-    "name": "Single-Arm Behind the Back Dumbbell Shrug",
-    "target": [
-      "Traps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/traps-1785970594666-q5u8fa.mp4"
-  },
-  {
-    "id": 25,
-    "muscle": "Traps",
-    "name": "Overhead Barbell Shrug",
-    "target": [
-      "Traps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/traps-1785970594675-2mrba3.mp4"
+    "videoUrl": "/uploads/gym/chest/Pec_Deck_Machine_Fly.mp4"
   },
   {
     "id": 26,
-    "muscle": "Traps",
-    "name": "Dumbbell Shrug",
-    "target": [
-      "Traps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/traps-1785970594682-yepl4p.mp4"
-  },
-  {
-    "id": 27,
-    "muscle": "Traps",
-    "name": "Leaning Dumbbell Shrug",
-    "target": [
-      "Traps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/traps-1785970594691-ea7sci.mp4"
-  },
-  {
-    "id": 28,
-    "muscle": "Biceps",
-    "name": "Standing Dumbbell Curl",
-    "target": [
-      "Biceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/biceps-1785970594297-f23w3e.mp4"
-  },
-  {
-    "id": 29,
-    "muscle": "Biceps",
-    "name": "Incline Dumbbell Curl",
-    "target": [
-      "Biceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/biceps-1785970594310-1zdq97.mp4"
-  },
-  {
-    "id": 30,
-    "muscle": "Biceps",
-    "name": "Single-Arm Dumbbell Preacher Curl",
-    "target": [
-      "Biceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/biceps-1785970594319-w4c5yb.mp4"
-  },
-  {
-    "id": 31,
-    "muscle": "Biceps",
-    "name": "Seated Dumbbell Curl",
-    "target": [
-      "Biceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/biceps-1785970594332-99e4v3.mp4"
-  },
-  {
-    "id": 32,
-    "muscle": "Biceps",
-    "name": "EZ Bar Preacher Curl",
-    "target": [
-      "Biceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/biceps-1785970594344-4dja0p.mp4"
-  },
-  {
-    "id": 33,
-    "muscle": "Triceps",
-    "name": "Cable Tricep Pushdown",
-    "target": [
-      "Triceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/triceps-1785970594700-u352b7.mp4"
-  },
-  {
-    "id": 34,
-    "muscle": "Abs",
-    "name": "Reverse Crunches (Lower Abs)",
-    "target": [
-      "Abs"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/abs-1785970594150-3cjast.mp4"
-  },
-  {
-    "id": 35,
-    "muscle": "Abs",
-    "name": "Crunches (Upper Abs)",
-    "target": [
-      "Abs"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/abs-1785970594184-chpjan.mp4"
-  },
-  {
-    "id": 36,
-    "muscle": "Abs",
-    "name": "Alternating V-Ups (Full Abs)",
-    "target": [
-      "Abs"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/abs-1785970594193-c2yoti.mp4"
-  },
-  {
-    "id": 37,
-    "muscle": "Abs",
-    "name": "Lying Leg Twists (Abdominals)",
-    "target": [
-      "Abs"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/abs-1785970594200-36440x.mp4"
-  },
-  {
-    "id": 38,
-    "muscle": "Back",
-    "name": "Lat Pulldown (Lower Lats Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594272-c400kt.mp4"
-  },
-  {
-    "id": 39,
-    "muscle": "Back",
-    "name": "Lat Pulldown (Entire Lats Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594282-zhjft7.mp4"
-  },
-  {
-    "id": 40,
-    "muscle": "Back",
-    "name": "Underhand Lat Pulldown (Lower Lats Focus)",
-    "target": [
-      "Back"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/back-1785970594289-xxlbwo.mp4"
-  },
-  {
-    "id": 41,
     "muscle": "Chest",
     "name": "Standing Cable Fly",
     "target": [
@@ -787,52 +577,10 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/chest-1785970594452-dt2orb.mp4"
+    "videoUrl": "/uploads/gym/chest/Standing_Cable_Fly.mp4"
   },
   {
-    "id": 42,
-    "muscle": "Forearms",
-    "name": "Reverse Grip Curls",
-    "target": [
-      "Forearms"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594462-4h3rtn.mp4"
-  },
-  {
-    "id": 43,
-    "muscle": "Forearms",
-    "name": "Wrist Curls",
-    "target": [
-      "Forearms"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594467-f6hv1n.mp4"
-  },
-  {
-    "id": 44,
-    "muscle": "Forearms",
-    "name": "Reverse Wrist Curls",
-    "target": [
-      "Forearms"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594472-igdwjm.mp4"
-  },
-  {
-    "id": 45,
+    "id": 27,
     "muscle": "Forearms",
     "name": "Dumbbell Radial Deviation",
     "target": [
@@ -842,11 +590,11 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594476-08f1oq.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Dumbbell_Radial_Deviation.mp4"
   },
   {
-    "id": 46,
+    "id": 28,
     "muscle": "Forearms",
     "name": "Dumbbell Ulnar Deviation",
     "target": [
@@ -856,11 +604,53 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594480-9yhxs3.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Dumbbell_Ulnar_Deviation.mp4"
   },
   {
-    "id": 47,
+    "id": 29,
+    "muscle": "Forearms",
+    "name": "Reverse Grip Curls",
+    "target": [
+      "Forearms"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Reverse_Grip_Curls.mp4"
+  },
+  {
+    "id": 30,
+    "muscle": "Forearms",
+    "name": "Reverse Wrist Curls",
+    "target": [
+      "Forearms"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Reverse_Wrist_Curls.mp4"
+  },
+  {
+    "id": 31,
+    "muscle": "Forearms",
+    "name": "Wrist Curls",
+    "target": [
+      "Forearms"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Wrist_Curls.mp4"
+  },
+  {
+    "id": 32,
     "muscle": "Forearms",
     "name": "Wrist Rotations",
     "target": [
@@ -870,25 +660,11 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/forearms-1785970594484-4acu3h.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/Forearms/Wrist_Rotations.mp4"
   },
   {
-    "id": 48,
-    "muscle": "Glutes",
-    "name": "Kettlebell RDL",
-    "target": [
-      "Glutes"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/glutes-1785970594499-iwuqn9.mp4"
-  },
-  {
-    "id": 49,
+    "id": 33,
     "muscle": "Glutes",
     "name": "Kettlebell Glute Bridge",
     "target": [
@@ -898,13 +674,13 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/glutes-1785970594505-f0dvs2.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/glutes/Kettlebell_Glute_Bridge.mp4"
   },
   {
-    "id": 50,
+    "id": 34,
     "muscle": "Glutes",
-    "name": "Kettlebell Side-Lying Kickback",
+    "name": "Kettlebell RDL",
     "target": [
       "Glutes"
     ],
@@ -912,11 +688,25 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/glutes-1785970594509-fd41su.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/glutes/Kettlebell_RDL.mp4"
   },
   {
-    "id": 51,
+    "id": 35,
+    "muscle": "Glutes",
+    "name": "Kettlebell Side Lying Kickback",
+    "target": [
+      "Glutes"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/glutes/Kettlebell_SideLying_Kickback.mp4"
+  },
+  {
+    "id": 36,
     "muscle": "Glutes",
     "name": "Kettlebell Sumo Squat",
     "target": [
@@ -926,53 +716,137 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/glutes-1785970594514-vmey18.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/glutes/Kettlebell_Sumo_Squat.mp4"
   },
   {
-    "id": 52,
-    "muscle": "Quadriceps",
-    "name": "Lying Leg Curl (Inner Focus)",
+    "id": 37,
+    "muscle": "Glutes",
+    "name": "Leg Press Glute Focus",
     "target": [
-      "Quadriceps"
+      "Glutes"
     ],
     "secondary": [],
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594572-5j0gdy.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/glutes/Leg_Press_Glute_Focus.mp4"
   },
   {
-    "id": 53,
-    "muscle": "Quadriceps",
-    "name": "Lying Leg Curl (Outer Focus)",
+    "id": 38,
+    "muscle": "Leg",
+    "name": "Dumbbell Walking Lunge",
     "target": [
-      "Quadriceps"
+      "Leg"
     ],
     "secondary": [],
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594581-0cjt0y.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Dumbbell_Walking_Lunge.mp4"
   },
   {
-    "id": 54,
-    "muscle": "Quadriceps",
-    "name": "Lying Leg Curl (Entire)",
+    "id": 39,
+    "muscle": "Leg",
+    "name": "Leg Extension",
     "target": [
-      "Quadriceps"
+      "Leg"
     ],
     "secondary": [],
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/quadriceps-1785970594588-xj92ms.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Leg_Extension.mp4"
   },
   {
-    "id": 55,
+    "id": 40,
+    "muscle": "Leg",
+    "name": "Leg Press Glute Focus",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Leg_Press_Glute_Focus.mp4"
+  },
+  {
+    "id": 41,
+    "muscle": "Leg",
+    "name": "Leg Press Inner Thighs",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Leg_Press_Inner_Thighs.mp4"
+  },
+  {
+    "id": 42,
+    "muscle": "Leg",
+    "name": "Leg Press Quad Focus",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Leg_Press_Quad_Focus.mp4"
+  },
+  {
+    "id": 43,
+    "muscle": "Leg",
+    "name": "Lying Leg Curl Entire",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Entire.mp4"
+  },
+  {
+    "id": 44,
+    "muscle": "Leg",
+    "name": "Lying Leg Curl Inner Focus",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Inner_Focus.mp4"
+  },
+  {
+    "id": 45,
+    "muscle": "Leg",
+    "name": "Lying Leg Curl Outer Focus",
+    "target": [
+      "Leg"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Outer_Focus.mp4"
+  },
+  {
+    "id": 46,
     "muscle": "Obliques",
     "name": "Plank",
     "target": [
@@ -982,13 +856,139 @@ export const exerciseCatalog = [
     "equipment": "Custom",
     "difficulty": "Intermediate",
     "calories": 200,
-    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/obliques-1785970594597-izysnn.mp4"
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/obliques/Plank.mp4"
+  },
+  {
+    "id": 47,
+    "muscle": "Shoulder",
+    "name": "Machine Reverse Fly",
+    "target": [
+      "Shoulder"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/shoulder/Machine_Reverse_Fly.mp4"
+  },
+  {
+    "id": 48,
+    "muscle": "Shoulder",
+    "name": "Machine Shoulder Press",
+    "target": [
+      "Shoulder"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/shoulder/Machine_Shoulder_Press.mp4"
+  },
+  {
+    "id": 49,
+    "muscle": "Shoulder",
+    "name": "Seated Dumbbell Front Raise",
+    "target": [
+      "Shoulder"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Front_Raise.mp4"
+  },
+  {
+    "id": 50,
+    "muscle": "Shoulder",
+    "name": "Seated Dumbbell Lateral Raise",
+    "target": [
+      "Shoulder"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Lateral_Raise.mp4"
+  },
+  {
+    "id": 51,
+    "muscle": "Traps",
+    "name": "Behind the Back Barbell Shrug",
+    "target": [
+      "Traps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/traps/Behind_the_Back_Barbell_Shrug.mp4"
+  },
+  {
+    "id": 52,
+    "muscle": "Traps",
+    "name": "Dumbbell Shrug",
+    "target": [
+      "Traps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/traps/Dumbbell_Shrug.mp4"
+  },
+  {
+    "id": 53,
+    "muscle": "Traps",
+    "name": "Leaning Dumbbell Shrug",
+    "target": [
+      "Traps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/traps/Leaning_Dumbbell_Shrug.mp4"
+  },
+  {
+    "id": 54,
+    "muscle": "Traps",
+    "name": "Overhead Barbell Shrug",
+    "target": [
+      "Traps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/traps/Overhead_Barbell_Shrug.mp4"
+  },
+  {
+    "id": 55,
+    "muscle": "Traps",
+    "name": "Single Arm Behind the Back Dumbbell Shrug",
+    "target": [
+      "Traps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/traps/SingleArm_Behind_the_Back_Dumbbell_Shrug.mp4"
   },
   {
     "id": 56,
     "muscle": "Triceps",
-    "name": "Lying Dumbbell Tricep Extension",
+    "name": "Cable Tricep Pushdown",
     "target": [
       "Triceps"
     ],
@@ -997,24 +997,10 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/triceps-1785970594710-b3sjdx.mp4"
+    "videoUrl": "/uploads/gym/triceps/Cable_Tricep_Pushdown.mp4"
   },
   {
     "id": 57,
-    "muscle": "Triceps",
-    "name": "Standing Overhead Dumbbell Tricep Extension",
-    "target": [
-      "Triceps"
-    ],
-    "secondary": [],
-    "equipment": "Custom",
-    "difficulty": "Intermediate",
-    "calories": 200,
-    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/triceps-1785970594718-yxp9hu.mp4"
-  },
-  {
-    "id": 58,
     "muscle": "Triceps",
     "name": "Dumbbell Tricep Kickback",
     "target": [
@@ -1025,7 +1011,21 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/triceps-1785970594726-2nru4f.mp4"
+    "videoUrl": "/uploads/gym/triceps/Dumbbell_Tricep_Kickback.mp4"
+  },
+  {
+    "id": 58,
+    "muscle": "Triceps",
+    "name": "Lying Dumbbell Tricep Extension",
+    "target": [
+      "Triceps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/triceps/Lying_Dumbbell_Tricep_Extension.mp4"
   },
   {
     "id": 59,
@@ -1039,7 +1039,21 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/triceps-1785970594732-ug6gr7.mp4"
+    "videoUrl": "/uploads/gym/triceps/Overhead_Cable_Tricep_Extension.mp4"
+  },
+  {
+    "id": 60,
+    "muscle": "Triceps",
+    "name": "Standing Overhead Dumbbell Tricep Extension",
+    "target": [
+      "Triceps"
+    ],
+    "secondary": [],
+    "equipment": "Custom",
+    "difficulty": "Intermediate",
+    "calories": 200,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+    "videoUrl": "/uploads/gym/triceps/Standing_Overhead_Dumbbell_Tricep_Extension.mp4"
   }
 ];
 
