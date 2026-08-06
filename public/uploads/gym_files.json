@@ -263,21 +263,21 @@
     "slot": 1,
     "path": "/uploads/gym/Hamstrings/ham1.mp4",
     "videoUrl": "/uploads/gym/Hamstrings/ham1.mp4",
-    "title": "ham1"
+    "title": "Lying Leg Curl (Entire Hamstrings Focus / Shoulder-Width Stance)"
   },
   {
     "muscle": "hamstrings",
     "slot": 2,
     "path": "/uploads/gym/Hamstrings/ham2.mp4",
     "videoUrl": "/uploads/gym/Hamstrings/ham2.mp4",
-    "title": "ham2"
+    "title": "Lying Leg Curl (Inner Hamstrings Focus / Wide Stance)"
   },
   {
     "muscle": "hamstrings",
     "slot": 3,
     "path": "/uploads/gym/Hamstrings/ham3.mp4",
     "videoUrl": "/uploads/gym/Hamstrings/ham3.mp4",
-    "title": "ham3"
+    "title": "Lying Leg Curl (Outer Hamstrings Focus / Narrow Stance)"
   },
   {
     "muscle": "leg",

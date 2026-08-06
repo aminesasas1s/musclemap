@@ -736,7 +736,7 @@ export const exerciseCatalog = [
   {
     "id": 38,
     "muscle": "Hamstrings",
-    "name": "ham1",
+    "name": "Lying Leg Curl (Entire Hamstrings Focus / Shoulder-Width Stance)",
     "target": [
       "Hamstrings"
     ],
@@ -750,7 +750,7 @@ export const exerciseCatalog = [
   {
     "id": 39,
     "muscle": "Hamstrings",
-    "name": "ham2",
+    "name": "Lying Leg Curl (Inner Hamstrings Focus / Wide Stance)",
     "target": [
       "Hamstrings"
     ],
@@ -764,7 +764,7 @@ export const exerciseCatalog = [
   {
     "id": 40,
     "muscle": "Hamstrings",
-    "name": "ham3",
+    "name": "Lying Leg Curl (Outer Hamstrings Focus / Narrow Stance)",
     "target": [
       "Hamstrings"
     ],
