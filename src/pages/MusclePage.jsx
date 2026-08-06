@@ -44,13 +44,14 @@ export default function MusclePage() {
     const onCustom = (e) => {
       if (e?.detail) {
         const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5175'
+        const isProd = import.meta.env.PROD
         const normalized = (e.detail || []).map(u => {
           const rawUrl = u.videoUrl || u.path || ''
           return {
             muscle: (u.muscle || '').trim(),
             slot: Number(u.slot || 1),
             path: u.path,
-            videoUrl: rawUrl.startsWith('/') ? `${API_BASE}${rawUrl}` : rawUrl,
+            videoUrl: (rawUrl.startsWith('/') && !isProd) ? `${API_BASE}${rawUrl}` : rawUrl,
             title: u.title,
           }
         })
@@ -82,8 +83,8 @@ export default function MusclePage() {
       (item.muscle || '').trim().toLowerCase() === (cleanName || '').trim().toLowerCase()
     )
     const maxFilledSlot = muscleUploads.reduce((max, item) => Math.max(max, Number(item.slot || 1)), 0)
-    // Always show one extra empty slot after the last filled one (minimum 1 slot)
-    const totalSlots = Math.max(maxFilledSlot + 1, 1)
+    // Always show one extra empty slot after the last filled one, and ensure all exercises are shown
+    const totalSlots = Math.max(maxFilledSlot + 1, exercises.length + 1)
 
     return Array.from({ length: totalSlots }, (_, index) => {
       const slotNumber = index + 1
@@ -135,7 +136,7 @@ export default function MusclePage() {
     const video = videoRefs.current[id]
     if (video) {
       video.currentTime = 0
-      video.play().catch(() => {})
+      video.play().catch(() => { })
     }
   }
 
