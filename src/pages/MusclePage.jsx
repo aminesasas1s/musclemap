@@ -237,7 +237,7 @@ export default function MusclePage() {
                   />
                 ) : (
                   <div className="space-y-2">
-                    <video ref={(element) => { if (element) videoRefs.current[exercise.id] = element }} className="w-full rounded-2xl border border-slate-800 object-contain" controls autoPlay muted loop playsInline>
+                    <video ref={(element) => { if (element) videoRefs.current[exercise.id] = element }} className="w-full rounded-2xl border border-slate-800 object-contain" controls preload="metadata">
                       <source src={exercise.videoUrl} type="video/mp4" />
                     </video>
                     <button
