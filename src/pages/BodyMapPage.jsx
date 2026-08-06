@@ -33,7 +33,14 @@ export default function BodyMapPage() {
   const [modelType, setModelType] = useState('anterior')
 
   const handleClick = (muscleData) => {
-    const route = routeMap[muscleData.muscle] || muscleData.muscle
+    let route = routeMap[muscleData.muscle] || muscleData.muscle
+    
+    // Special case: The front of the lower leg is technically the Tibialis, 
+    // but the library labels it as 'calves' on both front and back views.
+    if (muscleData.muscle === 'calves' && modelType === 'anterior') {
+      route = 'tibialis'
+    }
+
     navigate(`/muscle/${route.toLowerCase().replace(/\s+/g, '-')}`)
   }
 
