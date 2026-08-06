@@ -227,7 +227,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/Flat_Barbell_Bench_Press.mp4",
+    "videoUrl": "/uploads/chest-1785970594379-vz45ll.mp4"
+  },
   {
     "id": 2,
     "muscle": "Chest",
@@ -240,7 +241,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/Incline_Barbell_Bench_Press.mp4",
+    "videoUrl": "/uploads/chest-1785970594396-ktrqeb.mp4"
+  },
   {
     "id": 3,
     "muscle": "Chest",
@@ -253,7 +255,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/HightoLow_Cable_Fly.mp4",
+    "videoUrl": "/uploads/chest-1785970594410-u2t9pe.mp4"
+  },
   {
     "id": 4,
     "muscle": "Chest",
@@ -266,7 +269,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/Pec_Deck_Machine_Fly.mp4",
+    "videoUrl": "/uploads/chest-1785970594423-0ij5xv.mp4"
+  },
   {
     "id": 5,
     "muscle": "Chest",
@@ -279,7 +283,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/LowtoHigh_Cable_Fly.mp4",
+    "videoUrl": "/uploads/chest-1785970594434-f9375w.mp4"
+  },
   {
     "id": 6,
     "muscle": "Quadriceps",
@@ -292,7 +297,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Dumbbell_Walking_Lunge.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594519-v03uwq.mp4"
+  },
   {
     "id": 7,
     "muscle": "Quadriceps",
@@ -305,7 +311,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Leg_Press_Glute_Focus.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594528-yqk9jj.mp4"
+  },
   {
     "id": 8,
     "muscle": "Quadriceps",
@@ -318,7 +325,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Leg_Press_Quad_Focus.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594540-7c0ica.mp4"
+  },
   {
     "id": 9,
     "muscle": "Quadriceps",
@@ -331,7 +339,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Leg_Press_Inner_Thighs.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594549-12lxzn.mp4"
+  },
   {
     "id": 10,
     "muscle": "Quadriceps",
@@ -344,7 +353,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Leg_Extension.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594560-awvcyw.mp4"
+  },
   {
     "id": 11,
     "muscle": "Calves",
@@ -357,7 +367,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Inner.mp4",
+    "videoUrl": "/uploads/calves-1785970594355-3b09ev.mp4"
+  },
   {
     "id": 12,
     "muscle": "Calves",
@@ -370,7 +381,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Outer.mp4",
+    "videoUrl": "/uploads/calves-1785970594363-bsowge.mp4"
+  },
   {
     "id": 13,
     "muscle": "Calves",
@@ -383,7 +395,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/calves/Standing_Calf_Raise_Entire.mp4",
+    "videoUrl": "/uploads/calves-1785970594371-chu1yi.mp4"
+  },
   {
     "id": 14,
     "muscle": "Shoulders",
@@ -396,7 +409,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/shoulder/Machine_Shoulder_Press.mp4",
+    "videoUrl": "/uploads/shoulders-1785970594602-uxomfy.mp4"
+  },
   {
     "id": 15,
     "muscle": "Shoulders",
@@ -409,7 +423,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Lateral_Raise.mp4",
+    "videoUrl": "/uploads/shoulders-1785970594613-e61z07.mp4"
+  },
   {
     "id": 16,
     "muscle": "Shoulders",
@@ -422,7 +437,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/shoulder/Machine_Reverse_Fly.mp4",
+    "videoUrl": "/uploads/shoulders-1785970594630-gkx4sz.mp4"
+  },
   {
     "id": 17,
     "muscle": "Shoulders",
@@ -435,7 +451,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/shoulder/Seated_Dumbbell_Front_Raise.mp4",
+    "videoUrl": "/uploads/shoulders-1785970594639-9st2ej.mp4"
+  },
   {
     "id": 18,
     "muscle": "Back",
@@ -448,7 +465,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Mid_Back_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594209-pyn1zj.mp4"
+  },
   {
     "id": 19,
     "muscle": "Back",
@@ -461,7 +479,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Upper_Back_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594219-a34dyu.mp4"
+  },
   {
     "id": 20,
     "muscle": "Back",
@@ -474,7 +493,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Seated_Cable_Row_Lats_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594232-jpyb8y.mp4"
+  },
   {
     "id": 21,
     "muscle": "Back",
@@ -487,7 +507,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Barbell_Row.mp4",
+    "videoUrl": "/uploads/back-1785970594245-cbwmlb.mp4"
+  },
   {
     "id": 22,
     "muscle": "Back",
@@ -500,7 +521,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Upper_Lats_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594256-bp84mh.mp4"
+  },
   {
     "id": 23,
     "muscle": "Traps",
@@ -513,7 +535,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/traps/Behind_the_Back_Barbell_Shrug.mp4",
+    "videoUrl": "/uploads/traps-1785970594658-ftnrks.mp4"
+  },
   {
     "id": 24,
     "muscle": "Traps",
@@ -526,7 +549,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/traps/SingleArm_Behind_the_Back_Dumbbell_Shrug.mp4",
+    "videoUrl": "/uploads/traps-1785970594666-q5u8fa.mp4"
+  },
   {
     "id": 25,
     "muscle": "Traps",
@@ -539,7 +563,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/traps/Overhead_Barbell_Shrug.mp4",
+    "videoUrl": "/uploads/traps-1785970594675-2mrba3.mp4"
+  },
   {
     "id": 26,
     "muscle": "Traps",
@@ -552,7 +577,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/traps/Dumbbell_Shrug.mp4",
+    "videoUrl": "/uploads/traps-1785970594682-yepl4p.mp4"
+  },
   {
     "id": 27,
     "muscle": "Traps",
@@ -565,7 +591,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/traps/Leaning_Dumbbell_Shrug.mp4",
+    "videoUrl": "/uploads/traps-1785970594691-ea7sci.mp4"
+  },
   {
     "id": 28,
     "muscle": "Biceps",
@@ -578,7 +605,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/bicep/Standing_Dumbbell_Curl.mp4",
+    "videoUrl": "/uploads/biceps-1785970594297-f23w3e.mp4"
+  },
   {
     "id": 29,
     "muscle": "Biceps",
@@ -591,7 +619,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/bicep/Incline_Dumbbell_Curl.mp4",
+    "videoUrl": "/uploads/biceps-1785970594310-1zdq97.mp4"
+  },
   {
     "id": 30,
     "muscle": "Biceps",
@@ -604,7 +633,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/bicep/SingleArm_Dumbbell_Preacher_Curl.mp4",
+    "videoUrl": "/uploads/biceps-1785970594319-w4c5yb.mp4"
+  },
   {
     "id": 31,
     "muscle": "Biceps",
@@ -617,7 +647,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/bicep/Seated_Dumbbell_Curl.mp4",
+    "videoUrl": "/uploads/biceps-1785970594332-99e4v3.mp4"
+  },
   {
     "id": 32,
     "muscle": "Biceps",
@@ -630,7 +661,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/bicep/EZ_Bar_Preacher_Curl.mp4",
+    "videoUrl": "/uploads/biceps-1785970594344-4dja0p.mp4"
+  },
   {
     "id": 33,
     "muscle": "Triceps",
@@ -643,7 +675,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/triceps/Cable_Tricep_Pushdown.mp4",
+    "videoUrl": "/uploads/triceps-1785970594700-u352b7.mp4"
+  },
   {
     "id": 34,
     "muscle": "Abs",
@@ -656,7 +689,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/abs/Reverse_Crunches_Lower_Abs.mp4",
+    "videoUrl": "/uploads/abs-1785970594150-3cjast.mp4"
+  },
   {
     "id": 35,
     "muscle": "Abs",
@@ -669,7 +703,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/abs/Crunches_Upper_Abs.mp4",
+    "videoUrl": "/uploads/abs-1785970594184-chpjan.mp4"
+  },
   {
     "id": 36,
     "muscle": "Abs",
@@ -682,7 +717,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/abs/Alternating_VUps_Full_Abs.mp4",
+    "videoUrl": "/uploads/abs-1785970594193-c2yoti.mp4"
+  },
   {
     "id": 37,
     "muscle": "Abs",
@@ -695,7 +731,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/abs/Lying_Leg_Twists_Abdominals.mp4",
+    "videoUrl": "/uploads/abs-1785970594200-36440x.mp4"
+  },
   {
     "id": 38,
     "muscle": "Back",
@@ -708,7 +745,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Lower_Lats_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594272-c400kt.mp4"
+  },
   {
     "id": 39,
     "muscle": "Back",
@@ -721,7 +759,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Lat_Pulldown_Entire_Lats_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594282-zhjft7.mp4"
+  },
   {
     "id": 40,
     "muscle": "Back",
@@ -734,7 +773,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/back/Underhand_Lat_Pulldown_Lower_Lats_Focus.mp4",
+    "videoUrl": "/uploads/back-1785970594289-xxlbwo.mp4"
+  },
   {
     "id": 41,
     "muscle": "Chest",
@@ -747,7 +787,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/chest/Standing_Cable_Fly.mp4",
+    "videoUrl": "/uploads/chest-1785970594452-dt2orb.mp4"
+  },
   {
     "id": 42,
     "muscle": "Forearms",
@@ -760,7 +801,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Reverse_Grip_Curls.mp4",
+    "videoUrl": "/uploads/forearms-1785970594462-4h3rtn.mp4"
+  },
   {
     "id": 43,
     "muscle": "Forearms",
@@ -773,7 +815,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Wrist_Curls.mp4",
+    "videoUrl": "/uploads/forearms-1785970594467-f6hv1n.mp4"
+  },
   {
     "id": 44,
     "muscle": "Forearms",
@@ -786,7 +829,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Reverse_Wrist_Curls.mp4",
+    "videoUrl": "/uploads/forearms-1785970594472-igdwjm.mp4"
+  },
   {
     "id": 45,
     "muscle": "Forearms",
@@ -799,7 +843,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Dumbbell_Radial_Deviation.mp4",
+    "videoUrl": "/uploads/forearms-1785970594476-08f1oq.mp4"
+  },
   {
     "id": 46,
     "muscle": "Forearms",
@@ -812,7 +857,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Dumbbell_Ulnar_Deviation.mp4",
+    "videoUrl": "/uploads/forearms-1785970594480-9yhxs3.mp4"
+  },
   {
     "id": 47,
     "muscle": "Forearms",
@@ -825,7 +871,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1571019614245-cd287e2385a2?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/Forearms/Wrist_Rotations.mp4",
+    "videoUrl": "/uploads/forearms-1785970594484-4acu3h.mp4"
+  },
   {
     "id": 48,
     "muscle": "Glutes",
@@ -838,7 +885,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/glutes/Kettlebell_RDL.mp4",
+    "videoUrl": "/uploads/glutes-1785970594499-iwuqn9.mp4"
+  },
   {
     "id": 49,
     "muscle": "Glutes",
@@ -851,7 +899,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/glutes/Kettlebell_Glute_Bridge.mp4",
+    "videoUrl": "/uploads/glutes-1785970594505-f0dvs2.mp4"
+  },
   {
     "id": 50,
     "muscle": "Glutes",
@@ -864,7 +913,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/glutes/Kettlebell_SideLying_Kickback.mp4",
+    "videoUrl": "/uploads/glutes-1785970594509-fd41su.mp4"
+  },
   {
     "id": 51,
     "muscle": "Glutes",
@@ -877,7 +927,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/glutes/Kettlebell_Sumo_Squat.mp4",
+    "videoUrl": "/uploads/glutes-1785970594514-vmey18.mp4"
+  },
   {
     "id": 52,
     "muscle": "Quadriceps",
@@ -890,7 +941,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Inner_Focus.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594572-5j0gdy.mp4"
+  },
   {
     "id": 53,
     "muscle": "Quadriceps",
@@ -903,7 +955,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Outer_Focus.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594581-0cjt0y.mp4"
+  },
   {
     "id": 54,
     "muscle": "Quadriceps",
@@ -916,7 +969,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/leg/Lying_Leg_Curl_Entire.mp4",
+    "videoUrl": "/uploads/quadriceps-1785970594588-xj92ms.mp4"
+  },
   {
     "id": 55,
     "muscle": "Obliques",
@@ -929,7 +983,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/obliques/Plank.mp4",
+    "videoUrl": "/uploads/obliques-1785970594597-izysnn.mp4"
+  },
   {
     "id": 56,
     "muscle": "Triceps",
@@ -942,7 +997,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/triceps/Lying_Dumbbell_Tricep_Extension.mp4",
+    "videoUrl": "/uploads/triceps-1785970594710-b3sjdx.mp4"
+  },
   {
     "id": 57,
     "muscle": "Triceps",
@@ -955,7 +1011,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/triceps/Standing_Overhead_Dumbbell_Tricep_Extension.mp4",
+    "videoUrl": "/uploads/triceps-1785970594718-yxp9hu.mp4"
+  },
   {
     "id": 58,
     "muscle": "Triceps",
@@ -968,7 +1025,8 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/triceps/Dumbbell_Tricep_Kickback.mp4",
+    "videoUrl": "/uploads/triceps-1785970594726-2nru4f.mp4"
+  },
   {
     "id": 59,
     "muscle": "Triceps",
@@ -981,7 +1039,13 @@ export const exerciseCatalog = [
     "difficulty": "Intermediate",
     "calories": 200,
     "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
-    "videoUrl": "/uploads/gym/triceps/Overhead_Cable_Tricep_Extension.mp4",
+    "videoUrl": "/uploads/triceps-1785970594732-ug6gr7.mp4"
+  }
+];
+
+export const workoutPlans = [
+  {
+    "id": 1,
     "title": "Monday",
     "emoji": "💪",
     "goal": "Gain Muscle",
