@@ -259,6 +259,27 @@
     "title": "Leg Press Glute Focus"
   },
   {
+    "muscle": "hamstrings",
+    "slot": 1,
+    "path": "/uploads/gym/Hamstrings/ham1.mp4",
+    "videoUrl": "/uploads/gym/Hamstrings/ham1.mp4",
+    "title": "ham1"
+  },
+  {
+    "muscle": "hamstrings",
+    "slot": 2,
+    "path": "/uploads/gym/Hamstrings/ham2.mp4",
+    "videoUrl": "/uploads/gym/Hamstrings/ham2.mp4",
+    "title": "ham2"
+  },
+  {
+    "muscle": "hamstrings",
+    "slot": 3,
+    "path": "/uploads/gym/Hamstrings/ham3.mp4",
+    "videoUrl": "/uploads/gym/Hamstrings/ham3.mp4",
+    "title": "ham3"
+  },
+  {
     "muscle": "leg",
     "slot": 1,
     "path": "/uploads/gym/leg/Dumbbell_Walking_Lunge.mp4",
