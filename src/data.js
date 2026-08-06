@@ -385,10 +385,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 13,
-    "muscle": "Bicep",
+    "muscle": "Biceps",
     "name": "EZ Bar Preacher Curl",
     "target": [
-      "Bicep"
+      "Biceps"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -399,10 +399,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 14,
-    "muscle": "Bicep",
+    "muscle": "Biceps",
     "name": "Incline Dumbbell Curl",
     "target": [
-      "Bicep"
+      "Biceps"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -413,10 +413,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 15,
-    "muscle": "Bicep",
+    "muscle": "Biceps",
     "name": "Seated Dumbbell Curl",
     "target": [
-      "Bicep"
+      "Biceps"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -427,10 +427,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 16,
-    "muscle": "Bicep",
+    "muscle": "Biceps",
     "name": "Single Arm Dumbbell Preacher Curl",
     "target": [
-      "Bicep"
+      "Biceps"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -441,10 +441,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 17,
-    "muscle": "Bicep",
+    "muscle": "Biceps",
     "name": "Standing Dumbbell Curl",
     "target": [
-      "Bicep"
+      "Biceps"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -861,10 +861,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 47,
-    "muscle": "Shoulder",
+    "muscle": "Shoulders",
     "name": "Machine Reverse Fly",
     "target": [
-      "Shoulder"
+      "Shoulders"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -875,10 +875,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 48,
-    "muscle": "Shoulder",
+    "muscle": "Shoulders",
     "name": "Machine Shoulder Press",
     "target": [
-      "Shoulder"
+      "Shoulders"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -889,10 +889,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 49,
-    "muscle": "Shoulder",
+    "muscle": "Shoulders",
     "name": "Seated Dumbbell Front Raise",
     "target": [
-      "Shoulder"
+      "Shoulders"
     ],
     "secondary": [],
     "equipment": "Custom",
@@ -903,10 +903,10 @@ export const exerciseCatalog = [
   },
   {
     "id": 50,
-    "muscle": "Shoulder",
+    "muscle": "Shoulders",
     "name": "Seated Dumbbell Lateral Raise",
     "target": [
-      "Shoulder"
+      "Shoulders"
     ],
     "secondary": [],
     "equipment": "Custom",
