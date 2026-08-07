@@ -1174,44 +1174,44 @@ export const workoutPlans = [
             "estimatedTime": 55,
             "exercises": [
               {
-                "exerciseId": 1,
+                "exerciseId": 21,
                 "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 2,
+                "exerciseId": 23,
                 "sets": 3,
                 "reps": 12,
                 "rest": 75
               },
               {
-                "exerciseId": 4,
+                "exerciseId": 25,
                 "sets": 3,
                 "reps": 15,
                 "rest": 60
               },
               {
-                "exerciseId": 41,
+                "exerciseId": 26,
                 "sets": 3,
                 "reps": 15,
                 "rest": 60
               },
               {
-                "exerciseId": 33,
+                "exerciseId": 61,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 59,
+                "exerciseId": 64,
                 "sets": 3,
                 "reps": 15,
                 "rest": 45
               },
               {
-                "exerciseId": 58,
-                "sets": 2,
+                "exerciseId": 62,
+                "sets": 3,
                 "reps": 15,
                 "rest": 45
               }
@@ -1270,46 +1270,46 @@ export const workoutPlans = [
             "estimatedTime": 60,
             "exercises": [
               {
-                "exerciseId": 22,
+                "exerciseId": 5,
                 "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 20,
+                "exerciseId": 6,
                 "sets": 3,
-                "reps": 10,
+                "reps": 12,
                 "rest": 75
               },
               {
-                "exerciseId": 21,
+                "exerciseId": 9,
                 "sets": 3,
-                "reps": 10,
-                "rest": 90
+                "reps": 12,
+                "rest": 75
               },
               {
-                "exerciseId": 26,
+                "exerciseId": 12,
+                "sets": 3,
+                "reps": 15,
+                "rest": 60
+              },
+              {
+                "exerciseId": 13,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 28,
-                "sets": 3,
-                "reps": 10,
-                "rest": 60
-              },
-              {
-                "exerciseId": 29,
+                "exerciseId": 17,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 32,
-                "sets": 2,
-                "reps": 12,
-                "rest": 60
+                "exerciseId": 57,
+                "sets": 3,
+                "reps": 15,
+                "rest": 45
               }
             ]
           }
@@ -1363,31 +1363,31 @@ export const workoutPlans = [
             "estimatedTime": 60,
             "exercises": [
               {
-                "exerciseId": 8,
+                "exerciseId": 45,
                 "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 6,
+                "exerciseId": 42,
+                "sets": 3,
+                "reps": 15,
+                "rest": 75
+              },
+              {
+                "exerciseId": 41,
                 "sets": 3,
                 "reps": 12,
                 "rest": 75
               },
               {
-                "exerciseId": 10,
+                "exerciseId": 38,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 54,
-                "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 13,
+                "exerciseId": 18,
                 "sets": 4,
                 "reps": 20,
                 "rest": 45
@@ -1447,43 +1447,43 @@ export const workoutPlans = [
             "estimatedTime": 55,
             "exercises": [
               {
-                "exerciseId": 14,
+                "exerciseId": 52,
                 "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 15,
-                "sets": 4,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 16,
+                "exerciseId": 54,
                 "sets": 3,
                 "reps": 15,
                 "rest": 60
               },
               {
-                "exerciseId": 17,
+                "exerciseId": 53,
                 "sets": 3,
-                "reps": 12,
+                "reps": 15,
                 "rest": 60
               },
               {
-                "exerciseId": 34,
+                "exerciseId": 51,
                 "sets": 3,
                 "reps": 15,
-                "rest": 45
+                "rest": 60
               },
               {
-                "exerciseId": 35,
+                "exerciseId": 1,
                 "sets": 3,
                 "reps": 20,
                 "rest": 45
               },
               {
-                "exerciseId": 55,
+                "exerciseId": 2,
+                "sets": 3,
+                "reps": 20,
+                "rest": 45
+              },
+              {
+                "exerciseId": 50,
                 "sets": 3,
                 "reps": 60,
                 "rest": 45
@@ -1544,13 +1544,37 @@ export const workoutPlans = [
             "estimatedTime": 60,
             "exercises": [
               {
-                "exerciseId": 28,
-                "sets": 3,
+                "exerciseId": 13,
+                "sets": 4,
                 "reps": 10,
+                "rest": 75
+              },
+              {
+                "exerciseId": 15,
+                "sets": 3,
+                "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 32,
+                "exerciseId": 16,
+                "sets": 3,
+                "reps": 12,
+                "rest": 60
+              },
+              {
+                "exerciseId": 61,
+                "sets": 4,
+                "reps": 12,
+                "rest": 60
+              },
+              {
+                "exerciseId": 65,
+                "sets": 3,
+                "reps": 12,
+                "rest": 60
+              },
+              {
+                "exerciseId": 63,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
@@ -1558,37 +1582,13 @@ export const workoutPlans = [
               {
                 "exerciseId": 31,
                 "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 33,
-                "sets": 3,
-                "reps": 10,
-                "rest": 60
-              },
-              {
-                "exerciseId": 59,
-                "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 56,
-                "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 43,
-                "sets": 3,
-                "reps": 15,
+                "reps": 20,
                 "rest": 45
               },
               {
-                "exerciseId": 44,
+                "exerciseId": 32,
                 "sets": 3,
-                "reps": 15,
+                "reps": 20,
                 "rest": 45
               }
             ]
@@ -1646,45 +1646,45 @@ export const workoutPlans = [
             "estimatedTime": 65,
             "exercises": [
               {
-                "exerciseId": 1,
-                "sets": 3,
-                "reps": 8,
-                "rest": 90
-              },
-              {
                 "exerciseId": 21,
-                "sets": 3,
+                "sets": 4,
                 "reps": 8,
                 "rest": 90
               },
               {
-                "exerciseId": 8,
-                "sets": 3,
+                "exerciseId": 5,
+                "sets": 4,
+                "reps": 8,
+                "rest": 90
+              },
+              {
+                "exerciseId": 45,
+                "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 14,
+                "exerciseId": 52,
                 "sets": 3,
                 "reps": 10,
-                "rest": 90
-              },
-              {
-                "exerciseId": 48,
-                "sets": 3,
-                "reps": 12,
                 "rest": 75
               },
               {
                 "exerciseId": 13,
                 "sets": 3,
-                "reps": 15,
-                "rest": 45
+                "reps": 12,
+                "rest": 60
               },
               {
-                "exerciseId": 36,
+                "exerciseId": 61,
                 "sets": 3,
-                "reps": 15,
+                "reps": 12,
+                "rest": 60
+              },
+              {
+                "exerciseId": 18,
+                "sets": 3,
+                "reps": 20,
                 "rest": 45
               }
             ]
