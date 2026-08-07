@@ -1154,7 +1154,7 @@ export const workoutPlans = [
       "Overhead Cable Tricep Extension",
       "Dumbbell Tricep Kickback"
     ],
-    "rating": "4.6",
+    "rating": "4.8",
     "calories": 580,
     "completion": 85,
     "progressLabel": "Active",
@@ -1211,7 +1211,7 @@ export const workoutPlans = [
               },
               {
                 "exerciseId": 62,
-                "sets": 3,
+                "sets": 2,
                 "reps": 15,
                 "rest": 45
               }
@@ -1219,10 +1219,7 @@ export const workoutPlans = [
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop",
-    "reviews": 11146,
-    "members": 18577
+    ]
   },
   {
     "id": 2,
@@ -1233,31 +1230,31 @@ export const workoutPlans = [
     "targetMuscle": "Back",
     "level": "Intermediate",
     "durationWeeks": 1,
-    "durationMinutes": 65,
+    "durationMinutes": 60,
     "daysPerWeek": 6,
     "workoutTime": "55-65 min",
     "equipment": [
       "Barbell",
-      "Machine",
-      "Dumbbell"
+      "Cable",
+      "Dumbbells"
     ],
     "exercises": [
-      "Lat Pulldown (Upper Lats Focus)",
-      "Seated Cable Row (Lats Focus)",
+      "Lat Pulldown Upper Lats Focus",
+      "Seated Cable Row Lats Focus",
       "Barbell Row",
       "Dumbbell Shrug",
       "Standing Dumbbell Curl",
       "Incline Dumbbell Curl",
       "EZ Bar Preacher Curl"
     ],
-    "rating": "4.7",
-    "calories": 610,
-    "completion": 88,
-    "progressLabel": "Active",
+    "rating": "4.9",
+    "calories": 620,
+    "completion": 0,
+    "progressLabel": "Scheduled",
     "description": "Pull day: Back Width & Thickness",
     "tags": [
       "Pull",
-      "Upper Body",
+      "Back",
       "Hypertrophy"
     ],
     "weeks": [
@@ -1265,36 +1262,30 @@ export const workoutPlans = [
         "week": 1,
         "days": [
           {
-            "day": 1,
+            "day": 2,
             "title": "Back, Biceps & Traps",
             "estimatedTime": 60,
             "exercises": [
               {
-                "exerciseId": 5,
+                "exerciseId": 8,
                 "sets": 4,
                 "reps": 10,
                 "rest": 90
               },
               {
-                "exerciseId": 6,
-                "sets": 3,
-                "reps": 12,
-                "rest": 75
-              },
-              {
                 "exerciseId": 9,
                 "sets": 3,
-                "reps": 12,
+                "reps": 10,
                 "rest": 75
               },
               {
-                "exerciseId": 12,
+                "exerciseId": 5,
                 "sets": 3,
-                "reps": 15,
-                "rest": 60
+                "reps": 10,
+                "rest": 75
               },
               {
-                "exerciseId": 13,
+                "exerciseId": 57,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
@@ -1302,23 +1293,26 @@ export const workoutPlans = [
               {
                 "exerciseId": 17,
                 "sets": 3,
+                "reps": 10,
+                "rest": 60
+              },
+              {
+                "exerciseId": 14,
+                "sets": 3,
                 "reps": 12,
                 "rest": 60
               },
               {
-                "exerciseId": 57,
-                "sets": 3,
-                "reps": 15,
+                "exerciseId": 13,
+                "sets": 2,
+                "reps": 12,
                 "rest": 45
               }
             ]
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=800&auto=format&fit=crop",
-    "reviews": 10778,
-    "members": 21377
+    ]
   },
   {
     "id": 3,
@@ -1334,31 +1328,31 @@ export const workoutPlans = [
     "workoutTime": "60 min",
     "equipment": [
       "Machine",
-      "Dumbbell"
+      "Dumbbells"
     ],
     "exercises": [
-      "Leg Press (Quad Focus)",
+      "Leg Press Quad Focus",
       "Dumbbell Walking Lunge",
       "Leg Extension",
-      "Lying Leg Curl (Entire)",
-      "Standing Calf Raise (Entire)"
+      "Lying Leg Curl (Entire Hamstrings Focus / Shoulder-Width Stance)",
+      "Standing Calf Raise Entire"
     ],
-    "rating": "4.8",
-    "calories": 680,
-    "completion": 82,
-    "progressLabel": "Active",
-    "description": "Leg day: Complete lower body development",
+    "rating": "4.7",
+    "calories": 650,
+    "completion": 0,
+    "progressLabel": "Scheduled",
+    "description": "Legs day: Lower Body Power",
     "tags": [
       "Legs",
-      "Lower Body",
-      "Hypertrophy"
+      "Quads",
+      "Hamstrings"
     ],
     "weeks": [
       {
         "week": 1,
         "days": [
           {
-            "day": 1,
+            "day": 3,
             "title": "Legs",
             "estimatedTime": 60,
             "exercises": [
@@ -1369,16 +1363,16 @@ export const workoutPlans = [
                 "rest": 90
               },
               {
-                "exerciseId": 42,
-                "sets": 3,
-                "reps": 15,
-                "rest": 75
-              },
-              {
                 "exerciseId": 41,
                 "sets": 3,
                 "reps": 12,
                 "rest": 75
+              },
+              {
+                "exerciseId": 42,
+                "sets": 3,
+                "reps": 12,
+                "rest": 60
               },
               {
                 "exerciseId": 38,
@@ -1396,10 +1390,7 @@ export const workoutPlans = [
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=800&auto=format&fit=crop",
-    "reviews": 8691,
-    "members": 18376
+    ]
   },
   {
     "id": 4,
@@ -1415,36 +1406,35 @@ export const workoutPlans = [
     "workoutTime": "50-55 min",
     "equipment": [
       "Machine",
-      "Dumbbell",
-      "Bodyweight"
+      "Dumbbells"
     ],
     "exercises": [
       "Machine Shoulder Press",
       "Seated Dumbbell Lateral Raise",
       "Machine Reverse Fly",
       "Seated Dumbbell Front Raise",
-      "Reverse Crunches (Lower Abs)",
-      "Crunches (Upper Abs)",
+      "Reverse Crunches Lower Abs",
+      "Crunches Upper Abs",
       "Plank"
     ],
     "rating": "4.8",
     "calories": 520,
-    "completion": 80,
-    "progressLabel": "Active",
-    "description": "Shoulder and core day: Bigger Shoulders & Strong Core",
+    "completion": 0,
+    "progressLabel": "Scheduled",
+    "description": "Bigger Shoulders & Strong Core",
     "tags": [
       "Shoulders",
       "Core",
-      "Hypertrophy"
+      "Abs"
     ],
     "weeks": [
       {
         "week": 1,
         "days": [
           {
-            "day": 1,
+            "day": 4,
             "title": "Shoulders & Core",
-            "estimatedTime": 55,
+            "estimatedTime": 50,
             "exercises": [
               {
                 "exerciseId": 52,
@@ -1454,14 +1444,8 @@ export const workoutPlans = [
               },
               {
                 "exerciseId": 54,
-                "sets": 3,
-                "reps": 15,
-                "rest": 60
-              },
-              {
-                "exerciseId": 53,
-                "sets": 3,
-                "reps": 15,
+                "sets": 4,
+                "reps": 12,
                 "rest": 60
               },
               {
@@ -1471,9 +1455,15 @@ export const workoutPlans = [
                 "rest": 60
               },
               {
-                "exerciseId": 1,
+                "exerciseId": 53,
                 "sets": 3,
-                "reps": 20,
+                "reps": 12,
+                "rest": 60
+              },
+              {
+                "exerciseId": 4,
+                "sets": 3,
+                "reps": 15,
                 "rest": 45
               },
               {
@@ -1492,10 +1482,7 @@ export const workoutPlans = [
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop",
-    "reviews": 9100,
-    "members": 29427
+    ]
   },
   {
     "id": 5,
@@ -1510,7 +1497,7 @@ export const workoutPlans = [
     "daysPerWeek": 6,
     "workoutTime": "55-60 min",
     "equipment": [
-      "Dumbbell",
+      "Dumbbells",
       "Cable",
       "Barbell"
     ],
@@ -1524,30 +1511,37 @@ export const workoutPlans = [
       "Wrist Curls",
       "Reverse Wrist Curls"
     ],
-    "rating": "4.5",
-    "calories": 480,
-    "completion": 78,
-    "progressLabel": "Active",
-    "description": "Arm Specialization: Complete Arm Growth",
+    "rating": "4.9",
+    "calories": 540,
+    "completion": 0,
+    "progressLabel": "Scheduled",
+    "description": "Arm Growth & Forearms",
     "tags": [
       "Arms",
-      "Isolation",
-      "Specialization"
+      "Biceps",
+      "Triceps",
+      "Forearms"
     ],
     "weeks": [
       {
         "week": 1,
         "days": [
           {
-            "day": 1,
+            "day": 5,
             "title": "Arms",
-            "estimatedTime": 60,
+            "estimatedTime": 55,
             "exercises": [
               {
-                "exerciseId": 13,
-                "sets": 4,
+                "exerciseId": 17,
+                "sets": 3,
                 "reps": 10,
-                "rest": 75
+                "rest": 60
+              },
+              {
+                "exerciseId": 13,
+                "sets": 3,
+                "reps": 12,
+                "rest": 60
               },
               {
                 "exerciseId": 15,
@@ -1556,19 +1550,13 @@ export const workoutPlans = [
                 "rest": 60
               },
               {
-                "exerciseId": 16,
-                "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
                 "exerciseId": 61,
-                "sets": 4,
-                "reps": 12,
+                "sets": 3,
+                "reps": 10,
                 "rest": 60
               },
               {
-                "exerciseId": 65,
+                "exerciseId": 64,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
@@ -1582,23 +1570,20 @@ export const workoutPlans = [
               {
                 "exerciseId": 31,
                 "sets": 3,
-                "reps": 20,
+                "reps": 15,
                 "rest": 45
               },
               {
-                "exerciseId": 32,
+                "exerciseId": 30,
                 "sets": 3,
-                "reps": 20,
+                "reps": 15,
                 "rest": 45
               }
             ]
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop",
-    "reviews": 14346,
-    "members": 13077
+    ]
   },
   {
     "id": 6,
@@ -1607,7 +1592,7 @@ export const workoutPlans = [
     "goal": "Strength",
     "goalDescription": "Full Body Strength",
     "targetMuscle": "Full Body",
-    "level": "Advanced",
+    "level": "Intermediate",
     "durationWeeks": 1,
     "durationMinutes": 70,
     "daysPerWeek": 6,
@@ -1620,20 +1605,20 @@ export const workoutPlans = [
     "exercises": [
       "Flat Barbell Bench Press",
       "Barbell Row",
-      "Leg Press (Quad Focus)",
+      "Leg Press Quad Focus",
       "Machine Shoulder Press",
       "Kettlebell RDL",
-      "Standing Calf Raise (Entire)",
-      "Alternating V-Ups (Full Abs)"
+      "Standing Calf Raise Entire",
+      "Alternating VUps Full Abs"
     ],
-    "rating": "4.6",
-    "calories": 750,
-    "completion": 84,
-    "progressLabel": "Active",
-    "description": "Full body power + conditioning: Strength & Conditioning",
+    "rating": "4.9",
+    "calories": 680,
+    "completion": 0,
+    "progressLabel": "Scheduled",
+    "description": "Full Body Strength & Conditioning",
     "tags": [
       "Full Body",
-      "Power",
+      "Strength",
       "Conditioning"
     ],
     "weeks": [
@@ -1641,25 +1626,25 @@ export const workoutPlans = [
         "week": 1,
         "days": [
           {
-            "day": 1,
+            "day": 6,
             "title": "Full Body Strength",
             "estimatedTime": 65,
             "exercises": [
               {
                 "exerciseId": 21,
-                "sets": 4,
+                "sets": 3,
                 "reps": 8,
                 "rest": 90
               },
               {
                 "exerciseId": 5,
-                "sets": 4,
+                "sets": 3,
                 "reps": 8,
                 "rest": 90
               },
               {
                 "exerciseId": 45,
-                "sets": 4,
+                "sets": 3,
                 "reps": 10,
                 "rest": 90
               },
@@ -1670,13 +1655,7 @@ export const workoutPlans = [
                 "rest": 75
               },
               {
-                "exerciseId": 13,
-                "sets": 3,
-                "reps": 12,
-                "rest": 60
-              },
-              {
-                "exerciseId": 61,
+                "exerciseId": 34,
                 "sets": 3,
                 "reps": 12,
                 "rest": 60
@@ -1684,17 +1663,20 @@ export const workoutPlans = [
               {
                 "exerciseId": 18,
                 "sets": 3,
-                "reps": 20,
+                "reps": 15,
+                "rest": 45
+              },
+              {
+                "exerciseId": 1,
+                "sets": 3,
+                "reps": 15,
                 "rest": 45
               }
             ]
           }
         ]
       }
-    ],
-    "coverImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop",
-    "reviews": 13260,
-    "members": 26160
+    ]
   }
 ];
 
