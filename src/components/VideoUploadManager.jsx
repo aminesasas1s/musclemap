@@ -103,10 +103,11 @@ export default function VideoUploadManager({ exerciseId, currentVideoUrl, onVide
 
       // Get upload token from environment if available
       const token = import.meta.env.VITE_UPLOAD_TOKEN || ''
+      const apiBase = import.meta.env.VITE_API_BASE || 'http://localhost:5175'
       if (title) {
         formData.append('title', title.trim())
       }
-      xhr.open('POST', 'http://localhost:5175/api/upload')
+      xhr.open('POST', `${apiBase}/api/upload`)
       if (token) {
         xhr.setRequestHeader('x-upload-token', token)
       }

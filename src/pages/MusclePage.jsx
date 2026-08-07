@@ -28,7 +28,7 @@ export default function MusclePage() {
               muscle: (u.muscle || '').trim(),
               slot: Number(u.slot || 1),
               path: u.path,
-              videoUrl: rawUrl.startsWith('/') ? `${API_BASE}${rawUrl}` : rawUrl,
+              videoUrl: rawUrl,
               title: u.title,
             }
           })
@@ -51,7 +51,7 @@ export default function MusclePage() {
             muscle: (u.muscle || '').trim(),
             slot: Number(u.slot || 1),
             path: u.path,
-            videoUrl: (rawUrl.startsWith('/') && !isProd) ? `${API_BASE}${rawUrl}` : rawUrl,
+            videoUrl: rawUrl,
             title: u.title,
           }
         })
